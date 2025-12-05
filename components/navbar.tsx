@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import { Menu, X } from "lucide-react"
+import Link from "next/link"
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -25,15 +26,12 @@ export default function Navbar() {
             <a href="#smartphones" className="text-muted-foreground hover:text-accent transition">
               Smartphones
             </a>
-            <a href="#" className="text-muted-foreground hover:text-accent transition">
+            <Link href="/about" className="text-muted-foreground hover:text-accent transition">
               About
-            </a>
+            </Link>
             <a href="#" className="text-muted-foreground hover:text-accent transition">
               Contact
             </a>
-            <button className="px-6 py-2 bg-accent text-primary-foreground rounded-lg font-medium hover:opacity-90 transition">
-              Shop Now
-            </button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -51,15 +49,12 @@ export default function Navbar() {
             <a href="#smartphones" className="block text-muted-foreground hover:text-accent transition">
               Smartphones
             </a>
-            <a href="#" className="block text-muted-foreground hover:text-accent transition">
+            <Link href="/about" className="block text-muted-foreground hover:text-accent transition">
               About
-            </a>
+            </Link>
             <a href="#" className="block text-muted-foreground hover:text-accent transition">
               Contact
             </a>
-            <button className="w-full px-6 py-2 bg-accent text-primary-foreground rounded-lg font-medium hover:opacity-90 transition">
-              Shop Now
-            </button>
           </div>
         )}
       </div>

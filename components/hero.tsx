@@ -9,7 +9,7 @@ export default function Hero() {
         <source src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/video_done-H5YeAYJt47JacQkQLu5kHnUvtVGTUZ.mp4" type="video/mp4" />
       </video>
 
-      <div className="absolute inset-0 bg-black/40"></div>
+      <div className="absolute inset-0 bg-black/20"></div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
@@ -17,36 +17,19 @@ export default function Hero() {
           <div className="space-y-6 md:space-y-8 z-10">
             <div>
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight text-balance">
-                The Future of <span className="text-accent">Electronics</span>
+                Home of <span className="text-accent">AI Tech</span>
               </h1>
             </div>
 
             <p className="text-lg md:text-xl text-white/90 leading-relaxed max-w-xl">
-              Discover next-generation AI-powered devices and premium smartphones designed to transform how you work and
-              create.
+              Next-generation AI devices and premium smartphones.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <button className="px-8 py-4 bg-accent text-accent-foreground rounded-lg font-semibold hover:opacity-90 transition flex items-center justify-center gap-2">
-                Explore AI Products
+                Explore Products
                 <ArrowRight className="w-5 h-5" />
               </button>
-            </div>
-
-            {/* Stats */}
-            <div className="grid grid-cols-3 gap-4 pt-8">
-              <div>
-                <p className="text-3xl font-bold text-accent">500+</p>
-                <p className="text-sm text-white/80">Products</p>
-              </div>
-              <div>
-                <p className="text-3xl font-bold text-accent">50K+</p>
-                <p className="text-sm text-white/80">Customers</p>
-              </div>
-              <div>
-                <p className="text-3xl font-bold text-accent">24/7</p>
-                <p className="text-sm text-white/80">Support</p>
-              </div>
             </div>
           </div>
 

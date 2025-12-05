@@ -4,27 +4,27 @@ import { Smartphone, Star } from "lucide-react"
 
 const smartphones = [
   {
-    name: "UltraPhone X",
-    specs: '6.8" AMOLED | 256GB | 5G',
+    name: "iPhone 16 Pro Max",
+    specs: '6.9" OLED | 512GB | A18 Pro | 5G',
     rating: 4.9,
-    reviews: 2340,
-    price: "$1,299",
+    reviews: 3450,
+    price: "$1,399",
     image: "/premium-smartphone.jpg",
   },
   {
-    name: "SmartPhone Pro",
-    specs: '6.4" AMOLED | 512GB | 5G',
+    name: "Samsung Galaxy S24 Ultra",
+    specs: '6.8" AMOLED | 512GB | Snapdragon 8 Gen 3 | 5G',
     rating: 4.8,
-    reviews: 1890,
-    price: "$1,199",
+    reviews: 2890,
+    price: "$1,299",
     image: "/professional-smartphone.jpg",
   },
   {
-    name: "AirPhone Lite",
-    specs: '6.1" LCD | 128GB | 4G LTE',
+    name: "Google Pixel 9 Pro",
+    specs: '6.3" OLED | 256GB | Tensor G4 | 5G',
     rating: 4.7,
-    reviews: 1650,
-    price: "$699",
+    reviews: 1950,
+    price: "$999",
     image: "/lightweight-smartphone.jpg",
   },
 ]
@@ -73,11 +73,10 @@ export default function Smartphones() {
                   <span className="text-sm text-muted-foreground">({phone.reviews})</span>
                 </div>
 
-                {/* Price and Button */}
-                <div className="flex items-center justify-between pt-4 border-t border-border">
-                  <span className="text-2xl font-bold text-accent">{phone.price}</span>
+                {/* Button */}
+                <div className="flex justify-end pt-4 border-t border-border">
                   <button className="px-4 py-2 bg-accent text-primary-foreground rounded-lg hover:opacity-90 transition font-medium text-sm">
-                    View
+                    Learn More
                   </button>
                 </div>
               </div>
