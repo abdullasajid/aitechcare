@@ -15,7 +15,7 @@ export default function Navbar() {
             <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
               <span className="text-accent-foreground font-bold text-sm">AT</span>
             </div>
-            <span className="font-bold text-xl text-foreground">AITechCare</span>
+            <span className="font-bold text-xl text-foreground">AITech</span>
           </div>
 
           {/* Desktop Navigation */}

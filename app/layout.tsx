@@ -8,8 +8,8 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "AICenter - AI Electronics & Smartphones",
-  description: "Discover cutting-edge AI electronics and premium smartphones at AICenter",
+  title: "AITech - AI Electronics & Smartphones",
+  description: "Discover cutting-edge AI electronics and premium smartphones at AITech",
   generator: "v0.app",
   icons: {
     icon: [

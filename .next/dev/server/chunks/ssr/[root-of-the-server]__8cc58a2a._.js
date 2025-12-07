@@ -74,8 +74,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$vercel$2f$
 ;
 ;
 const metadata = {
-    title: "AICenter - AI Electronics & Smartphones",
-    description: "Discover cutting-edge AI electronics and premium smartphones at AICenter",
+    title: "AITech - AI Electronics & Smartphones",
+    description: "Discover cutting-edge AI electronics and premium smartphones at AITech",
     generator: "v0.app",
     icons: {
         icon: [

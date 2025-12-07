@@ -17,7 +17,7 @@ export default function AboutPage() {
               About <span className="text-accent">Us</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-              Welcome to AiTechCare, British Columbia's trusted source for AI gadgets, smart accessories, 
+              Welcome to AITech, British Columbia's trusted source for AI gadgets, smart accessories, 
               and reliable after-sale support. We combine innovation, convenience, and customer care — 
               helping you confidently step into the world of modern AI technology.
             </p>
@@ -27,7 +27,7 @@ export default function AboutPage() {
           <section className="mb-16">
             <h2 className="text-3xl font-bold text-foreground mb-6">Who We Are</h2>
             <p className="text-muted-foreground leading-relaxed text-lg">
-              AiTechCare was created to make advanced technology easier to understand and easier to use. 
+              AITech was created to make advanced technology easier to understand and easier to use. 
               With experience in retail, sales, and consumer electronics, we built a space where people 
               can explore the latest AI products, get expert recommendations, and receive ongoing support 
               long after their purchase.
@@ -38,7 +38,7 @@ export default function AboutPage() {
           <section className="mb-16">
             <h2 className="text-3xl font-bold text-foreground mb-6">What We Do</h2>
             <p className="text-muted-foreground leading-relaxed text-lg mb-6">
-              AiTechCare specializes in AI-powered gadgets and smart lifestyle technology, offering a curated 
+              AITech specializes in AI-powered gadgets and smart lifestyle technology, offering a curated 
               selection of useful, high-quality products for home, work, and everyday life.
             </p>
             
@@ -96,7 +96,7 @@ export default function AboutPage() {
 
           {/* Why Choose Us */}
           <section className="mb-16">
-            <h2 className="text-3xl font-bold text-foreground mb-8 text-center">Why Choose AiTechCare</h2>
+            <h2 className="text-3xl font-bold text-foreground mb-8 text-center">Why Choose AITech</h2>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {[
@@ -149,7 +149,7 @@ export default function AboutPage() {
           <section className="bg-gradient-to-br from-accent/10 to-accent/5 rounded-2xl p-8 md:p-12 border border-accent/20 text-center">
             <h2 className="text-3xl font-bold text-foreground mb-6">Our Promise</h2>
             <p className="text-muted-foreground leading-relaxed text-lg max-w-3xl mx-auto">
-              AiTechCare is committed to providing a smooth and supportive customer experience. Whether 
+              AITech is committed to providing a smooth and supportive customer experience. Whether 
               you're buying your first AI gadget or expanding your smart home setup, we're here to guide 
               you, support you, and help you get the most out of your technology.
             </p>

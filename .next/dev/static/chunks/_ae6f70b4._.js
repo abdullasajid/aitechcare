@@ -48,7 +48,7 @@ function Navbar() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "font-bold text-xl text-foreground",
-                                    children: "AITechCare"
+                                    children: "AITech"
                                 }, void 0, false, {
                                     fileName: "[project]/components/navbar.tsx",
                                     lineNumber: 18,
@@ -238,7 +238,7 @@ function Footer() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "font-bold text-lg text-foreground",
-                                            children: "AITechCare"
+                                            children: "AITech"
                                         }, void 0, false, {
                                             fileName: "[project]/components/footer.tsx",
                                             lineNumber: 12,
@@ -535,7 +535,7 @@ function Footer() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-sm text-muted-foreground",
-                                children: "© 2025 AITechCare. All rights reserved."
+                                children: "© 2025 AITech. All rights reserved."
                             }, void 0, false, {
                                 fileName: "[project]/components/footer.tsx",
                                 lineNumber: 103,
@@ -665,7 +665,7 @@ function AboutPage() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-lg md:text-xl text-muted-foreground leading-relaxed",
-                                    children: "Welcome to AiTechCare, British Columbia's trusted source for AI gadgets, smart accessories, and reliable after-sale support. We combine innovation, convenience, and customer care — helping you confidently step into the world of modern AI technology."
+                                    children: "Welcome to AITech, British Columbia's trusted source for AI gadgets, smart accessories, and reliable after-sale support. We combine innovation, convenience, and customer care — helping you confidently step into the world of modern AI technology."
                                 }, void 0, false, {
                                     fileName: "[project]/app/about/page.tsx",
                                     lineNumber: 19,
@@ -690,7 +690,7 @@ function AboutPage() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-muted-foreground leading-relaxed text-lg",
-                                    children: "AiTechCare was created to make advanced technology easier to understand and easier to use. With experience in retail, sales, and consumer electronics, we built a space where people can explore the latest AI products, get expert recommendations, and receive ongoing support long after their purchase."
+                                    children: "AITech was created to make advanced technology easier to understand and easier to use. With experience in retail, sales, and consumer electronics, we built a space where people can explore the latest AI products, get expert recommendations, and receive ongoing support long after their purchase."
                                 }, void 0, false, {
                                     fileName: "[project]/app/about/page.tsx",
                                     lineNumber: 29,
@@ -715,7 +715,7 @@ function AboutPage() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-muted-foreground leading-relaxed text-lg mb-6",
-                                    children: "AiTechCare specializes in AI-powered gadgets and smart lifestyle technology, offering a curated selection of useful, high-quality products for home, work, and everyday life."
+                                    children: "AITech specializes in AI-powered gadgets and smart lifestyle technology, offering a curated selection of useful, high-quality products for home, work, and everyday life."
                                 }, void 0, false, {
                                     fileName: "[project]/app/about/page.tsx",
                                     lineNumber: 40,
@@ -889,7 +889,7 @@ function AboutPage() {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                     className: "text-3xl font-bold text-foreground mb-8 text-center",
-                                    children: "Why Choose AiTechCare"
+                                    children: "Why Choose AITech"
                                 }, void 0, false, {
                                     fileName: "[project]/app/about/page.tsx",
                                     lineNumber: 99,
@@ -994,7 +994,7 @@ function AboutPage() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-muted-foreground leading-relaxed text-lg max-w-3xl mx-auto",
-                                    children: "AiTechCare is committed to providing a smooth and supportive customer experience. Whether you're buying your first AI gadget or expanding your smart home setup, we're here to guide you, support you, and help you get the most out of your technology."
+                                    children: "AITech is committed to providing a smooth and supportive customer experience. Whether you're buying your first AI gadget or expanding your smart home setup, we're here to guide you, support you, and help you get the most out of your technology."
                                 }, void 0, false, {
                                     fileName: "[project]/app/about/page.tsx",
                                     lineNumber: 151,
@@ -2053,7 +2053,7 @@ const _addbasepath = __turbopack_context__.r("[project]/node_modules/next/dist/c
 const _warnonce = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/utils/warn-once.js [app-client] (ecmascript)");
 const _links = __turbopack_context__.r("[project]/node_modules/next/dist/client/components/links.js [app-client] (ecmascript)");
 const _islocalurl = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/router/utils/is-local-url.js [app-client] (ecmascript)");
-const _segmentcache = __turbopack_context__.r("[project]/node_modules/next/dist/client/components/segment-cache.js [app-client] (ecmascript)");
+const _types = __turbopack_context__.r("[project]/node_modules/next/dist/client/components/segment-cache/types.js [app-client] (ecmascript)");
 const _erroronce = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/utils/error-once.js [app-client] (ecmascript)");
 function isModifiedEvent(event) {
     const eventTarget = event.currentTarget;
@@ -2117,7 +2117,7 @@ function LinkComponent(props) {
     }
     const router = _react.default.useContext(_approutercontextsharedruntime.AppRouterContext);
     const prefetchEnabled = prefetchProp !== false;
-    const fetchStrategy = prefetchProp !== false ? getFetchStrategyFromPrefetchProp(prefetchProp) : _segmentcache.FetchStrategy.PPR;
+    const fetchStrategy = prefetchProp !== false ? getFetchStrategyFromPrefetchProp(prefetchProp) : _types.FetchStrategy.PPR;
     if ("TURBOPACK compile-time truthy", 1) {
         function createPropError(args) {
             return Object.defineProperty(new Error(`Failed prop type: The prop \`${args.key}\` expects a ${args.expected} in \`<Link>\`, but got \`${args.actual}\` instead.` + (typeof window !== 'undefined' ? "\nOpen your browser's console to view the Component stack trace." : '')), "__NEXT_ERROR_CODE", {
@@ -2188,10 +2188,10 @@ function LinkComponent(props) {
                     });
                 }
             } else if (key === 'prefetch') {
-                if (props[key] != null && valType !== 'boolean' && props[key] !== 'auto' && props[key] !== 'unstable_forceStale') {
+                if (props[key] != null && valType !== 'boolean' && props[key] !== 'auto') {
                     throw createPropError({
                         key,
-                        expected: '`boolean | "auto" | "unstable_forceStale"`',
+                        expected: '`boolean | "auto"`',
                         actual: valType
                     });
                 }
@@ -2402,8 +2402,8 @@ function getFetchStrategyFromPrefetchProp(prefetchProp) {
     if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
     ;
     else {
-        return prefetchProp === null || prefetchProp === 'auto' ? _segmentcache.FetchStrategy.PPR : // (although invalid values should've been filtered out by prop validation in dev)
-        _segmentcache.FetchStrategy.Full;
+        return prefetchProp === null || prefetchProp === 'auto' ? _types.FetchStrategy.PPR : // (although invalid values should've been filtered out by prop validation in dev)
+        _types.FetchStrategy.Full;
     }
 }
 if ((typeof exports.default === 'function' || typeof exports.default === 'object' && exports.default !== null) && typeof exports.default.__esModule === 'undefined') {

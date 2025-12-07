@@ -4,8 +4,20 @@ import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 import { ArrowLeft, Check, Star } from "lucide-react"
 import Link from "next/link"
+import Image from "next/image"
+import { useState } from "react"
 
 export default function RoombaJ9() {
+  const [selectedImage, setSelectedImage] = useState(0)
+  
+  const images = [
+    "/roomba1.webp",
+    "/roomba2.webp",
+    "/roomba3.webp",
+    "/roomba4.webp",
+    "/roomba5.webp",
+    "/roomba6.webp",
+  ]
   return (
     <main className="min-h-screen bg-background">
       <Navbar />
@@ -18,13 +30,39 @@ export default function RoombaJ9() {
           </Link>
 
           <div className="grid md:grid-cols-2 gap-12 items-start">
-            {/* Product Image */}
-            <div className="bg-gradient-to-br from-cyan-500/20 to-teal-500/20 rounded-2xl p-12 border border-border aspect-square flex items-center justify-center">
-              <div className="text-center">
-                <div className="w-32 h-32 bg-gradient-to-br from-cyan-500 to-teal-500 rounded-3xl mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-6xl">🤖</span>
-                </div>
-                <p className="text-muted-foreground">Product Image</p>
+            {/* Product Images */}
+            <div className="space-y-4">
+              {/* Main Image */}
+              <div className="relative bg-gradient-to-br from-cyan-500/20 to-teal-500/20 rounded-2xl border border-border aspect-square overflow-hidden">
+                <Image
+                  src={images[selectedImage]}
+                  alt="Roomba j9+"
+                  fill
+                  className="object-contain p-8"
+                  priority
+                />
+              </div>
+              
+              {/* Thumbnail Gallery */}
+              <div className="grid grid-cols-6 gap-2">
+                {images.map((image, index) => (
+                  <button
+                    key={index}
+                    onClick={() => setSelectedImage(index)}
+                    className={`relative aspect-square rounded-lg overflow-hidden border-2 transition ${
+                      selectedImage === index
+                        ? "border-accent"
+                        : "border-border hover:border-accent/50"
+                    }`}
+                  >
+                    <Image
+                      src={image}
+                      alt={`Roomba j9+ view ${index + 1}`}
+                      fill
+                      className="object-contain p-1"
+                    />
+                  </button>
+                ))}
               </div>
             </div>
 
