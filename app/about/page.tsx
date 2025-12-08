@@ -17,8 +17,8 @@ export default function AboutPage() {
               About <span className="text-accent">Us</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-              Welcome to AITech, British Columbia's trusted source for AI gadgets, smart accessories, 
-              and reliable after-sale support. We combine innovation, convenience, and customer care — 
+              Welcome to AITech, Canada's trusted source for AI devices, smart accessories, 
+              and reliable after-sale support and repair. We combine innovation, convenience, and customer care — 
               helping you confidently step into the world of modern AI technology.
             </p>
           </div>
@@ -27,7 +27,7 @@ export default function AboutPage() {
           <section className="mb-16">
             <h2 className="text-3xl font-bold text-foreground mb-6">Who We Are</h2>
             <p className="text-muted-foreground leading-relaxed text-lg">
-              AITech was created to make advanced technology easier to understand and easier to use. 
+              AITech was created to make advanced technology easier to understand and easier to use through retail stores. 
               With experience in retail, sales, and consumer electronics, we built a space where people 
               can explore the latest AI products, get expert recommendations, and receive ongoing support 
               long after their purchase.
@@ -39,7 +39,8 @@ export default function AboutPage() {
             <h2 className="text-3xl font-bold text-foreground mb-6">What We Do</h2>
             <p className="text-muted-foreground leading-relaxed text-lg mb-6">
               AITech specializes in AI-powered gadgets and smart lifestyle technology, offering a curated 
-              selection of useful, high-quality products for home, work, and everyday life.
+              selection of useful, high-quality products for home, work, and everyday life, along with 
+              comprehensive after-sale customer support and guidance.
             </p>
             
             <div className="bg-secondary/30 rounded-xl p-6 border border-border">
