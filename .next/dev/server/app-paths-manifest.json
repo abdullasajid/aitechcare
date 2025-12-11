@@ -1,4 +1,5 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js",
-  "/products/meta-quest-3/page": "app/products/meta-quest-3/page.js"
+  "/products/apple-watch-ultra-3/page": "app/products/apple-watch-ultra-3/page.js"
 }

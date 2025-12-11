@@ -72,10 +72,28 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../../app/products/apple-watch-ultra-3/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/products/apple-watch-ultra-3">> = Specific
+  const handler = {} as typeof import("../../../app/products/apple-watch-ultra-3/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../../app/products/google-nest-cam/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/products/google-nest-cam">> = Specific
   const handler = {} as typeof import("../../../app/products/google-nest-cam/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/products/meta-ai-glasses/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/products/meta-ai-glasses">> = Specific
+  const handler = {} as typeof import("../../../app/products/meta-ai-glasses/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check

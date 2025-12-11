@@ -1,6 +1,6 @@
 "use client"
 
-import { Glasses, Zap, Home, Camera, Brain, Speaker } from "lucide-react"
+import { Glasses, Zap, Watch, Camera, Brain, Speaker } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 
@@ -16,21 +16,21 @@ const products = [
   },
   {
     icon: Zap,
-    title: "Roomba j9+",
-    description: "iRobot's smartest vacuum with AI obstacle avoidance",
-    price: "$899",
+    title: "Meta AI Glasses",
+    description: "Ray-Ban Meta smart glasses with AI assistant and hands-free interaction",
+    price: "$299",
     color: "from-cyan-500 to-teal-500",
-    link: "/products/roomba-j9",
-    image: "/roomba1.webp",
+    link: "/products/meta-ai-glasses",
+    image: "/meta_glasses1.webp",
   },
   {
-    icon: Home,
-    title: "Roborock S8 Pro Ultra",
-    description: "Premium robot vacuum and mop with auto-empty dock",
-    price: "$1,599",
+    icon: Watch,
+    title: "Apple Watch Ultra 3",
+    description: "Advanced smartwatch with AI health tracking and fitness features",
+    price: "$799",
     color: "from-teal-500 to-green-500",
-    link: "/products/roborock-s8",
-    image: "/roborock1.png",
+    link: "/products/apple-watch-ultra-3",
+    image: "/watch1.png",
   },
   {
     icon: Camera,
