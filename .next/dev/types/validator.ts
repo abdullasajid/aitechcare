@@ -90,6 +90,60 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../../app/products/google-pixel-10-pro-xl/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/products/google-pixel-10-pro-xl">> = Specific
+  const handler = {} as typeof import("../../../app/products/google-pixel-10-pro-xl/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/products/google-pixel-9-pro-xl/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/products/google-pixel-9-pro-xl">> = Specific
+  const handler = {} as typeof import("../../../app/products/google-pixel-9-pro-xl/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/products/google-pixel-9-pro/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/products/google-pixel-9-pro">> = Specific
+  const handler = {} as typeof import("../../../app/products/google-pixel-9-pro/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/products/iphone-16-pro-max/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/products/iphone-16-pro-max">> = Specific
+  const handler = {} as typeof import("../../../app/products/iphone-16-pro-max/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/products/iphone-17-pro-max/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/products/iphone-17-pro-max">> = Specific
+  const handler = {} as typeof import("../../../app/products/iphone-17-pro-max/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/products/iphone-air/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/products/iphone-air">> = Specific
+  const handler = {} as typeof import("../../../app/products/iphone-air/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../../app/products/meta-ai-glasses/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/products/meta-ai-glasses">> = Specific
@@ -108,6 +162,78 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../../app/products/motorola-edge-50-ultra/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/products/motorola-edge-50-ultra">> = Specific
+  const handler = {} as typeof import("../../../app/products/motorola-edge-50-ultra/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/products/motorola-razr-50-ultra/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/products/motorola-razr-50-ultra">> = Specific
+  const handler = {} as typeof import("../../../app/products/motorola-razr-50-ultra/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/products/motorola-razr-ultra-2025/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/products/motorola-razr-ultra-2025">> = Specific
+  const handler = {} as typeof import("../../../app/products/motorola-razr-ultra-2025/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/products/nothing-phone-2a/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/products/nothing-phone-2a">> = Specific
+  const handler = {} as typeof import("../../../app/products/nothing-phone-2a/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/products/nothing-phone-3/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/products/nothing-phone-3">> = Specific
+  const handler = {} as typeof import("../../../app/products/nothing-phone-3/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/products/oneplus-12/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/products/oneplus-12">> = Specific
+  const handler = {} as typeof import("../../../app/products/oneplus-12/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/products/oneplus-13/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/products/oneplus-13">> = Specific
+  const handler = {} as typeof import("../../../app/products/oneplus-13/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/products/oneplus-15/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/products/oneplus-15">> = Specific
+  const handler = {} as typeof import("../../../app/products/oneplus-15/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../../app/products/roborock-s8/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/products/roborock-s8">> = Specific
@@ -121,6 +247,24 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 {
   type __IsExpected<Specific extends AppPageConfig<"/products/roomba-j9">> = Specific
   const handler = {} as typeof import("../../../app/products/roomba-j9/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/products/samsung-galaxy-s24-ultra/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/products/samsung-galaxy-s24-ultra">> = Specific
+  const handler = {} as typeof import("../../../app/products/samsung-galaxy-s24-ultra/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/products/samsung-galaxy-s25-ultra/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/products/samsung-galaxy-s25-ultra">> = Specific
+  const handler = {} as typeof import("../../../app/products/samsung-galaxy-s25-ultra/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check

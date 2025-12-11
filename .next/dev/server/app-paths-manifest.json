@@ -1,5 +1,8 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js",
-  "/products/apple-watch-ultra-3/page": "app/products/apple-watch-ultra-3/page.js"
+  "/products/apple-watch-ultra-3/page": "app/products/apple-watch-ultra-3/page.js",
+  "/products/nothing-phone-2a/page": "app/products/nothing-phone-2a/page.js",
+  "/products/nothing-phone-3/page": "app/products/nothing-phone-3/page.js",
+  "/products/samsung-galaxy-s25-ultra/page": "app/products/samsung-galaxy-s25-ultra/page.js"
 }
