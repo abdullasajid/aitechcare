@@ -9,14 +9,14 @@ const smartphones = [
     name: "iPhone 17 Pro Max",
     brand: "Apple",
     specs: '6.9" OLED | 2TB | A19 Pro | Apple Intelligence 2.0',
-    image: "/iphone17.jpg",
+    image: "/iphone17-1.png",
     link: "/products/iphone-17-pro-max",
   },
   {
     name: "iPhone Air",
     brand: "Apple",
     specs: '6.6" OLED | 512GB | A19 | Ultra-thin Design',
-    image: "/iphone-air.jpg",
+    image: "/iphoneair-1.png",
     link: "/products/iphone-air",
   },
   {

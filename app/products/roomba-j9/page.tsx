@@ -69,12 +69,6 @@ export default function RoombaJ9() {
             {/* Product Details */}
             <div className="space-y-6">
               <div>
-                <div className="flex items-center gap-2 mb-2">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 fill-accent text-accent" />
-                  ))}
-                  <span className="text-muted-foreground">(4,521 reviews)</span>
-                </div>
                 <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Roomba j9+</h1>
               </div>
 

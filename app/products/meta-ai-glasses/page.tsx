@@ -80,20 +80,9 @@ export default function MetaAIGlassesPage() {
             {/* Product Details */}
             <div className="space-y-6">
               <div>
-                <h1 className="text-4xl font-bold text-foreground mb-2">
+                <h1 className="text-4xl font-bold text-foreground mb-4">
                   Meta AI Glasses
                 </h1>
-                <div className="flex items-center gap-2 mb-4">
-                  <div className="flex">
-                    {[...Array(5)].map((_, i) => (
-                      <Star
-                        key={i}
-                        className="w-5 h-5 fill-yellow-400 text-yellow-400"
-                      />
-                    ))}
-                  </div>
-                  <span className="text-muted-foreground">(4.5/5)</span>
-                </div>
                 <p className="text-muted-foreground text-lg">
                   Ray-Ban Meta smart glasses combine iconic style with cutting-edge AI technology. 
                   Experience hands-free photography, music, calls, and AI assistance while keeping 

@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="bg-card border-t border-border py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
@@ -21,50 +21,18 @@ export default function Footer() {
             <h4 className="font-semibold text-foreground">Products</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
-                <a href="#" className="hover:text-accent transition">
+                <a href="#ai-products" className="hover:text-accent transition">
                   AI Electronics
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-accent transition">
+                <a href="#smartphones" className="hover:text-accent transition">
                   Smartphones
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-accent transition">
+                <a href="#ai-accessories" className="hover:text-accent transition">
                   Accessories
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-accent transition">
-                  Bundles
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          {/* Support */}
-          <div className="space-y-4">
-            <h4 className="font-semibold text-foreground">Support</h4>
-            <ul className="space-y-2 text-sm text-muted-foreground">
-              <li>
-                <a href="#" className="hover:text-accent transition">
-                  Help Center
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-accent transition">
-                  Contact Us
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-accent transition">
-                  Warranty
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-accent transition">
-                  Returns
                 </a>
               </li>
             </ul>
@@ -75,23 +43,8 @@ export default function Footer() {
             <h4 className="font-semibold text-foreground">Company</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
-                <a href="#" className="hover:text-accent transition">
+                <a href="/about" className="hover:text-accent transition">
                   About
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-accent transition">
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-accent transition">
-                  Careers
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-accent transition">
-                  Privacy
                 </a>
               </li>
             </ul>

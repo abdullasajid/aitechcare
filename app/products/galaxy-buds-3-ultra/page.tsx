@@ -3,10 +3,12 @@
 import { useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { ChevronLeft } from "lucide-react"
+import { ArrowLeft, Check } from "lucide-react"
+import Navbar from "@/components/navbar"
+import Footer from "@/components/footer"
 
 export default function GalaxyBuds3Ultra() {
-  const [selectedImage, setSelectedImage] = useState("/galaxy-buds3.jpg")
+  const [selectedImage, setSelectedImage] = useState(0)
 
   const images = [
     "/galaxy-buds3.jpg",
@@ -16,54 +18,49 @@ export default function GalaxyBuds3Ultra() {
   ]
 
   return (
-    <div className="min-h-screen bg-background">
-      {/* Header */}
-      <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container flex h-16 items-center">
+    <>
+      <Navbar />
+      <div className="min-h-screen bg-background pt-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <Link
             href="/"
-            className="flex items-center gap-2 text-accent hover:opacity-80 transition"
+            className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition mb-8"
           >
-            <ChevronLeft className="w-5 h-5" />
-            <span className="font-medium">Back to Home</span>
+            <ArrowLeft className="w-4 h-4" />
+            Back to Home
           </Link>
-        </div>
-      </header>
-
-      {/* Product Details */}
-      <main className="container py-12">
-        <div className="grid lg:grid-cols-2 gap-12">
-          {/* Image Gallery */}
-          <div className="space-y-4">
-            <div className="relative aspect-square rounded-xl overflow-hidden border border-border bg-gradient-to-br from-accent/20 to-primary/20">
-              <Image
-                src={selectedImage || "/placeholder.svg"}
-                alt="Galaxy Buds 3 Ultra"
-                fill
-                className="object-cover"
-              />
+          <div className="grid md:grid-cols-2 gap-12">
+            {/* Image Gallery */}
+            <div className="space-y-4">
+              <div className="relative aspect-square rounded-xl overflow-hidden bg-gradient-to-br from-accent/20 to-primary/20">
+                <Image
+                  src={images[selectedImage]}
+                  alt="Galaxy Buds 3 Ultra"
+                  fill
+                  className="object-contain p-8"
+                />
+              </div>
+              <div className="grid grid-cols-4 gap-2">
+                {images.map((image, index) => (
+                  <button
+                    key={index}
+                    onClick={() => setSelectedImage(index)}
+                    className={`relative aspect-square rounded-lg overflow-hidden border-2 transition ${
+                      selectedImage === index
+                        ? "border-accent"
+                        : "border-border hover:border-accent/50"
+                    }`}
+                  >
+                    <Image
+                      src={image}
+                      alt={`Galaxy Buds 3 Ultra view ${index + 1}`}
+                      fill
+                      className="object-contain p-2"
+                    />
+                  </button>
+                ))}
+              </div>
             </div>
-            <div className="grid grid-cols-4 gap-4">
-              {images.map((img, index) => (
-                <button
-                  key={index}
-                  onClick={() => setSelectedImage(img)}
-                  className={`relative aspect-square rounded-lg overflow-hidden border-2 transition ${
-                    selectedImage === img
-                      ? "border-accent"
-                      : "border-border hover:border-accent/50"
-                  }`}
-                >
-                  <Image
-                    src={img || "/placeholder.svg"}
-                    alt={`Galaxy Buds 3 Ultra view ${index + 1}`}
-                    fill
-                    className="object-cover"
-                  />
-                </button>
-              ))}
-            </div>
-          </div>
 
           {/* Product Info */}
           <div className="space-y-6">
@@ -77,77 +74,56 @@ export default function GalaxyBuds3Ultra() {
               </p>
             </div>
 
-            <div className="space-y-4">
-              <h2 className="text-2xl font-bold text-foreground">Key Features</h2>
-              <ul className="space-y-3 text-muted-foreground">
-                <li className="flex items-start gap-2">
-                  <span className="text-accent mt-1">•</span>
-                  <span>Galaxy AI real-time translation in 20+ languages</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-accent mt-1">•</span>
-                  <span>Intelligent Active Noise Cancellation with 360° Audio</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-accent mt-1">•</span>
-                  <span>Adaptive EQ that learns your preferences</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-accent mt-1">•</span>
-                  <span>Voice Focus AI for crystal-clear calls</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-accent mt-1">•</span>
-                  <span>Up to 40 hours total battery life with wireless charging case</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-accent mt-1">•</span>
-                  <span>Premium dual-driver system with Hi-Res Audio certification</span>
-                </li>
-              </ul>
-            </div>
+              <div className="border-t border-border pt-6">
+                <h2 className="text-2xl font-semibold text-foreground mb-4">
+                  Key Features
+                </h2>
+                <ul className="space-y-3">
+                  <li className="flex items-start gap-3">
+                    <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
+                    <span className="text-muted-foreground">Galaxy AI real-time translation in 20+ languages</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
+                    <span className="text-muted-foreground">Intelligent Active Noise Cancellation with 360° Audio</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
+                    <span className="text-muted-foreground">Adaptive EQ that learns your preferences</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
+                    <span className="text-muted-foreground">Voice Focus AI for crystal-clear calls</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
+                    <span className="text-muted-foreground">Up to 40 hours total battery life with wireless charging case</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
+                    <span className="text-muted-foreground">Premium dual-driver system with Hi-Res Audio certification</span>
+                  </li>
+                </ul>
+              </div>
 
-            <div className="space-y-4">
-              <h2 className="text-2xl font-bold text-foreground">Specifications</h2>
-              <div className="grid grid-cols-2 gap-4">
-                <div>
-                  <p className="text-sm text-muted-foreground">Drivers</p>
-                  <p className="font-semibold text-foreground">Dual driver (11mm + 6.5mm)</p>
-                </div>
-                <div>
-                  <p className="text-sm text-muted-foreground">Battery Life</p>
-                  <p className="font-semibold text-foreground">8h (ANC on) / 40h total</p>
-                </div>
-                <div>
-                  <p className="text-sm text-muted-foreground">Connectivity</p>
-                  <p className="font-semibold text-foreground">Bluetooth 5.4, LE Audio</p>
-                </div>
-                <div>
-                  <p className="text-sm text-muted-foreground">Water Resistance</p>
-                  <p className="font-semibold text-foreground">IPX7</p>
-                </div>
-                <div>
-                  <p className="text-sm text-muted-foreground">AI Features</p>
-                  <p className="font-semibold text-foreground">Translation, Voice Focus, Adaptive EQ</p>
-                </div>
-                <div>
-                  <p className="text-sm text-muted-foreground">Charging</p>
-                  <p className="font-semibold text-foreground">USB-C, Qi wireless</p>
+              <div className="border-t border-border pt-6">
+                <h2 className="text-2xl font-semibold text-foreground mb-4">
+                  Specifications
+                </h2>
+                <div className="space-y-2 text-muted-foreground">
+                  <p><strong>Drivers:</strong> Dual driver (11mm + 6.5mm)</p>
+                  <p><strong>Battery Life:</strong> 8h (ANC on) / 40h total</p>
+                  <p><strong>Connectivity:</strong> Bluetooth 5.4, LE Audio</p>
+                  <p><strong>Water Resistance:</strong> IPX7</p>
+                  <p><strong>AI Features:</strong> Translation, Voice Focus, Adaptive EQ</p>
+                  <p><strong>Charging:</strong> USB-C, Qi wireless</p>
                 </div>
               </div>
             </div>
-
-            <div className="pt-6 border-t border-border">
-              <Link
-                href="/"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-primary-foreground rounded-lg hover:opacity-90 transition font-medium"
-              >
-                Back to Products
-              </Link>
-            </div>
           </div>
         </div>
-      </main>
-    </div>
+      </div>
+      <Footer />
+    </>
   )
 }

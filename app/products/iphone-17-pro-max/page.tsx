@@ -11,10 +11,8 @@ export default function iPhone17ProMaxPage() {
   const [selectedImage, setSelectedImage] = useState(0)
 
   const images = [
-    "/iphone17.jpg",
-    "/iphone17-2.jpg",
-    "/iphone17-3.jpg",
-    "/iphone17-4.jpg",
+    "/iphone17-1.png",
+    "/iphone17-2.png",
   ]
 
   const features = [
@@ -80,20 +78,9 @@ export default function iPhone17ProMaxPage() {
             <div className="space-y-6">
               <div>
                 <p className="text-sm text-accent font-semibold mb-2">Apple</p>
-                <h1 className="text-4xl font-bold text-foreground mb-2">
+                <h1 className="text-4xl font-bold text-foreground mb-4">
                   iPhone 17 Pro Max
                 </h1>
-                <div className="flex items-center gap-2 mb-4">
-                  <div className="flex">
-                    {[...Array(5)].map((_, i) => (
-                      <Star
-                        key={i}
-                        className="w-5 h-5 fill-yellow-400 text-yellow-400"
-                      />
-                    ))}
-                  </div>
-                  <span className="text-muted-foreground">(4.9/5)</span>
-                </div>
                 <p className="text-muted-foreground text-lg">
                   The ultimate iPhone with the A19 Pro chip, Apple Intelligence 2.0, and the most 
                   advanced camera system ever. Experience next-generation AI capabilities with 

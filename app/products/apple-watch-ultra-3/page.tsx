@@ -84,20 +84,9 @@ export default function AppleWatchUltra3Page() {
             {/* Product Details */}
             <div className="space-y-6">
               <div>
-                <h1 className="text-4xl font-bold text-foreground mb-2">
+                <h1 className="text-4xl font-bold text-foreground mb-4">
                   Apple Watch Ultra 3
                 </h1>
-                <div className="flex items-center gap-2 mb-4">
-                  <div className="flex">
-                    {[...Array(5)].map((_, i) => (
-                      <Star
-                        key={i}
-                        className="w-5 h-5 fill-yellow-400 text-yellow-400"
-                      />
-                    ))}
-                  </div>
-                  <span className="text-muted-foreground">(4.8/5)</span>
-                </div>
                 <p className="text-muted-foreground text-lg">
                   The most rugged and capable Apple Watch pushes the limits of what a smartwatch can do. 
                   With advanced AI-powered health tracking, precision GPS, and extreme durability, 

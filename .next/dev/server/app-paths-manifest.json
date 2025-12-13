@@ -2,5 +2,9 @@
   "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js",
   "/products/airpods-pro-3/page": "app/products/airpods-pro-3/page.js",
+  "/products/amazon-echo-hub/page": "app/products/amazon-echo-hub/page.js",
+  "/products/galaxy-buds-3-ultra/page": "app/products/galaxy-buds-3-ultra/page.js",
+  "/products/iphone-17-pro-max/page": "app/products/iphone-17-pro-max/page.js",
+  "/products/iphone-air/page": "app/products/iphone-air/page.js",
   "/products/meta-ai-glasses/page": "app/products/meta-ai-glasses/page.js"
 }

@@ -26,6 +26,9 @@ export default function Navbar() {
             <a href="#smartphones" className="text-muted-foreground hover:text-accent transition">
               Smartphones
             </a>
+            <a href="#ai-accessories" className="text-muted-foreground hover:text-accent transition">
+              Accessories
+            </a>
             <Link href="/about" className="text-muted-foreground hover:text-accent transition">
               About
             </Link>
@@ -48,6 +51,9 @@ export default function Navbar() {
             </a>
             <a href="#smartphones" className="block text-muted-foreground hover:text-accent transition">
               Smartphones
+            </a>
+            <a href="#ai-accessories" className="block text-muted-foreground hover:text-accent transition">
+              Accessories
             </a>
             <Link href="/about" className="block text-muted-foreground hover:text-accent transition">
               About

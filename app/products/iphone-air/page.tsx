@@ -11,10 +11,11 @@ export default function iPhoneAirPage() {
   const [selectedImage, setSelectedImage] = useState(0)
 
   const images = [
-    "/iphone-air.jpg",
-    "/iphone-air-2.jpg",
-    "/iphone-air-3.jpg",
-    "/iphone-air-4.jpg",
+    "/iphoneair-1.png",
+    "/iphoneair-2.png",
+    "/iphoneair-3.png",
+    "/iphoneair-4.png",
+    "/iphoneair-5.png",
   ]
 
   const features = [
