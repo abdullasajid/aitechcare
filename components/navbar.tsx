@@ -20,13 +20,13 @@ export default function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex gap-8 items-center">
-            <a href="#ai-products" className="text-muted-foreground hover:text-accent transition">
+            <a href="/#ai-products" className="text-muted-foreground hover:text-accent transition">
               AI Electronics
             </a>
-            <a href="#smartphones" className="text-muted-foreground hover:text-accent transition">
+            <a href="/#smartphones" className="text-muted-foreground hover:text-accent transition">
               Smartphones
             </a>
-            <a href="#ai-accessories" className="text-muted-foreground hover:text-accent transition">
+            <a href="/#ai-accessories" className="text-muted-foreground hover:text-accent transition">
               Accessories
             </a>
             <Link href="/about" className="text-muted-foreground hover:text-accent transition">
@@ -46,13 +46,13 @@ export default function Navbar() {
         {/* Mobile Navigation */}
         {isOpen && (
           <div className="md:hidden pb-4 space-y-3">
-            <a href="#ai-products" className="block text-muted-foreground hover:text-accent transition">
+            <a href="/#ai-products" className="block text-muted-foreground hover:text-accent transition">
               AI Electronics
             </a>
-            <a href="#smartphones" className="block text-muted-foreground hover:text-accent transition">
+            <a href="/#smartphones" className="block text-muted-foreground hover:text-accent transition">
               Smartphones
             </a>
-            <a href="#ai-accessories" className="block text-muted-foreground hover:text-accent transition">
+            <a href="/#ai-accessories" className="block text-muted-foreground hover:text-accent transition">
               Accessories
             </a>
             <Link href="/about" className="block text-muted-foreground hover:text-accent transition">

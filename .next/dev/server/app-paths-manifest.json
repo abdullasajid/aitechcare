@@ -1,5 +1,6 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
   "/page": "app/page.js",
   "/products/airpods-pro-3/page": "app/products/airpods-pro-3/page.js",
   "/products/amazon-echo-hub/page": "app/products/amazon-echo-hub/page.js",

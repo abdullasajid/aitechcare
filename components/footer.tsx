@@ -21,17 +21,17 @@ export default function Footer() {
             <h4 className="font-semibold text-foreground">Products</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
-                <a href="#ai-products" className="hover:text-accent transition">
+                <a href="/#ai-products" className="hover:text-accent transition">
                   AI Electronics
                 </a>
               </li>
               <li>
-                <a href="#smartphones" className="hover:text-accent transition">
+                <a href="/#smartphones" className="hover:text-accent transition">
                   Smartphones
                 </a>
               </li>
               <li>
-                <a href="#ai-accessories" className="hover:text-accent transition">
+                <a href="/#ai-accessories" className="hover:text-accent transition">
                   Accessories
                 </a>
               </li>
