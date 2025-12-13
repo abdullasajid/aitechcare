@@ -335,8 +335,6 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$glasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Glasses$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/glasses.js [app-client] (ecmascript) <export default as Glasses>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$zap$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Zap$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/zap.js [app-client] (ecmascript) <export default as Zap>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$watch$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Watch$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/watch.js [app-client] (ecmascript) <export default as Watch>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$camera$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Camera$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/camera.js [app-client] (ecmascript) <export default as Camera>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$brain$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Brain$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/brain.js [app-client] (ecmascript) <export default as Brain>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$speaker$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Speaker$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/speaker.js [app-client] (ecmascript) <export default as Speaker>");
@@ -356,24 +354,6 @@ const products = [
         color: "from-blue-500 to-cyan-500",
         link: "/products/meta-quest-3",
         image: "/meta_quest1.webp"
-    },
-    {
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$zap$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Zap$3e$__["Zap"],
-        title: "Meta AI Glasses",
-        description: "Ray-Ban Meta smart glasses with AI assistant and hands-free interaction",
-        price: "$299",
-        color: "from-cyan-500 to-teal-500",
-        link: "/products/meta-ai-glasses",
-        image: "/meta_glasses1.webp"
-    },
-    {
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$watch$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Watch$3e$__["Watch"],
-        title: "Apple Watch Ultra 3",
-        description: "Advanced smartwatch with AI health tracking and fitness features",
-        price: "$799",
-        color: "from-teal-500 to-green-500",
-        link: "/products/apple-watch-ultra-3",
-        image: "/watch1.png"
     },
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$camera$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Camera$3e$__["Camera"],
@@ -422,13 +402,13 @@ function AIProducts() {
                                     children: "Collection"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ai-products.tsx",
-                                    lineNumber: 70,
+                                    lineNumber: 52,
                                     columnNumber: 24
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/ai-products.tsx",
-                            lineNumber: 69,
+                            lineNumber: 51,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -436,13 +416,13 @@ function AIProducts() {
                             children: "Cutting-edge AI-powered smart home devices engineered for convenience and security"
                         }, void 0, false, {
                             fileName: "[project]/components/ai-products.tsx",
-                            lineNumber: 72,
+                            lineNumber: 54,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/ai-products.tsx",
-                    lineNumber: 68,
+                    lineNumber: 50,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -462,12 +442,12 @@ function AIProducts() {
                                         className: "object-contain p-4 group-hover:scale-105 transition duration-300"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ai-products.tsx",
-                                        lineNumber: 89,
+                                        lineNumber: 71,
                                         columnNumber: 21
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/ai-products.tsx",
-                                    lineNumber: 88,
+                                    lineNumber: 70,
                                     columnNumber: 19
                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "p-6 pb-0",
@@ -477,17 +457,17 @@ function AIProducts() {
                                             className: "w-full h-full text-white"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ai-products.tsx",
-                                            lineNumber: 101,
+                                            lineNumber: 83,
                                             columnNumber: 23
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/ai-products.tsx",
-                                        lineNumber: 98,
+                                        lineNumber: 80,
                                         columnNumber: 21
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/ai-products.tsx",
-                                    lineNumber: 97,
+                                    lineNumber: 79,
                                     columnNumber: 19
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -498,7 +478,7 @@ function AIProducts() {
                                             children: product.title
                                         }, void 0, false, {
                                             fileName: "[project]/components/ai-products.tsx",
-                                            lineNumber: 108,
+                                            lineNumber: 90,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -506,7 +486,7 @@ function AIProducts() {
                                             children: product.description
                                         }, void 0, false, {
                                             fileName: "[project]/components/ai-products.tsx",
-                                            lineNumber: 109,
+                                            lineNumber: 91,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -516,41 +496,41 @@ function AIProducts() {
                                                 children: "Check It Out"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ai-products.tsx",
-                                                lineNumber: 113,
+                                                lineNumber: 95,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/ai-products.tsx",
-                                            lineNumber: 112,
+                                            lineNumber: 94,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/ai-products.tsx",
-                                    lineNumber: 107,
+                                    lineNumber: 89,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, index, true, {
                             fileName: "[project]/components/ai-products.tsx",
-                            lineNumber: 81,
+                            lineNumber: 63,
                             columnNumber: 15
                         }, this);
                     })
                 }, void 0, false, {
                     fileName: "[project]/components/ai-products.tsx",
-                    lineNumber: 77,
+                    lineNumber: 59,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/ai-products.tsx",
-            lineNumber: 67,
+            lineNumber: 49,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/ai-products.tsx",
-        lineNumber: 66,
+        lineNumber: 48,
         columnNumber: 5
     }, this);
 }
@@ -921,27 +901,6 @@ var _s = __turbopack_context__.k.signature();
 ;
 const accessories = [
     {
-        name: "AirPods Pro 3",
-        brand: "Apple",
-        specs: 'AI Noise Cancellation | Health Sensors | Siri AI',
-        image: "/airpods-pro3.jpg",
-        link: "/products/airpods-pro-3"
-    },
-    {
-        name: "Galaxy Buds 3 Ultra",
-        brand: "Samsung",
-        specs: 'Galaxy AI Translation | ANC | Real-time Audio',
-        image: "/galaxy-buds3.jpg",
-        link: "/products/galaxy-buds-3-ultra"
-    },
-    {
-        name: "Oura Ring Gen 4",
-        brand: "Oura",
-        specs: 'AI Health Tracking | Sleep Analysis | Fitness',
-        image: "/oura-ring.jpg",
-        link: "/products/oura-ring-gen-4"
-    },
-    {
         name: "Humane AI Pin",
         brand: "Humane",
         specs: 'Standalone AI | Projector Display | Voice Control',
@@ -1001,7 +960,7 @@ function AIAccessories() {
                                     className: "w-4 h-4 text-accent"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ai-accessories.tsx",
-                                    lineNumber: 84,
+                                    lineNumber: 63,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1009,13 +968,13 @@ function AIAccessories() {
                                     children: "Smart Accessories"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ai-accessories.tsx",
-                                    lineNumber: 85,
+                                    lineNumber: 64,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/ai-accessories.tsx",
-                            lineNumber: 83,
+                            lineNumber: 62,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1027,13 +986,13 @@ function AIAccessories() {
                                     children: "Accessories"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ai-accessories.tsx",
-                                    lineNumber: 88,
+                                    lineNumber: 67,
                                     columnNumber: 16
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/ai-accessories.tsx",
-                            lineNumber: 87,
+                            lineNumber: 66,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1041,13 +1000,13 @@ function AIAccessories() {
                             children: "Next-generation AI-powered wearables and smart accessories"
                         }, void 0, false, {
                             fileName: "[project]/components/ai-accessories.tsx",
-                            lineNumber: 90,
+                            lineNumber: 69,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/ai-accessories.tsx",
-                    lineNumber: 82,
+                    lineNumber: 61,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1061,12 +1020,12 @@ function AIAccessories() {
                                 className: "w-6 h-6"
                             }, void 0, false, {
                                 fileName: "[project]/components/ai-accessories.tsx",
-                                lineNumber: 102,
+                                lineNumber: 81,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/ai-accessories.tsx",
-                            lineNumber: 97,
+                            lineNumber: 76,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1077,12 +1036,12 @@ function AIAccessories() {
                                 className: "w-6 h-6"
                             }, void 0, false, {
                                 fileName: "[project]/components/ai-accessories.tsx",
-                                lineNumber: 110,
+                                lineNumber: 89,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/ai-accessories.tsx",
-                            lineNumber: 105,
+                            lineNumber: 84,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1101,12 +1060,12 @@ function AIAccessories() {
                                                     className: "w-full h-full object-cover group-hover:scale-105 transition duration-300"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ai-accessories.tsx",
-                                                    lineNumber: 120,
+                                                    lineNumber: 99,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ai-accessories.tsx",
-                                                lineNumber: 119,
+                                                lineNumber: 98,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1119,7 +1078,7 @@ function AIAccessories() {
                                                                 children: accessory.brand
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ai-accessories.tsx",
-                                                                lineNumber: 130,
+                                                                lineNumber: 109,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1127,13 +1086,13 @@ function AIAccessories() {
                                                                 children: accessory.name
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ai-accessories.tsx",
-                                                                lineNumber: 131,
+                                                                lineNumber: 110,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/ai-accessories.tsx",
-                                                        lineNumber: 129,
+                                                        lineNumber: 108,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1141,7 +1100,7 @@ function AIAccessories() {
                                                         children: accessory.specs
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/ai-accessories.tsx",
-                                                        lineNumber: 133,
+                                                        lineNumber: 112,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1151,34 +1110,34 @@ function AIAccessories() {
                                                             children: "Check It Out"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/ai-accessories.tsx",
-                                                            lineNumber: 137,
+                                                            lineNumber: 116,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/ai-accessories.tsx",
-                                                        lineNumber: 136,
+                                                        lineNumber: 115,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/ai-accessories.tsx",
-                                                lineNumber: 128,
+                                                lineNumber: 107,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, `${accessory.name}-${index}`, true, {
                                         fileName: "[project]/components/ai-accessories.tsx",
-                                        lineNumber: 117,
+                                        lineNumber: 96,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/components/ai-accessories.tsx",
-                                lineNumber: 115,
+                                lineNumber: 94,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/ai-accessories.tsx",
-                            lineNumber: 114,
+                            lineNumber: 93,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1191,29 +1150,29 @@ function AIAccessories() {
                                     "aria-label": `Go to slide ${index + 1}`
                                 }, index, false, {
                                     fileName: "[project]/components/ai-accessories.tsx",
-                                    lineNumber: 150,
+                                    lineNumber: 129,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/ai-accessories.tsx",
-                            lineNumber: 148,
+                            lineNumber: 127,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/ai-accessories.tsx",
-                    lineNumber: 95,
+                    lineNumber: 74,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/ai-accessories.tsx",
-            lineNumber: 81,
+            lineNumber: 60,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/ai-accessories.tsx",
-        lineNumber: 80,
+        lineNumber: 59,
         columnNumber: 5
     }, this);
 }

@@ -6,27 +6,6 @@ import Link from "next/link"
 
 const accessories = [
   {
-    name: "AirPods Pro 3",
-    brand: "Apple",
-    specs: 'AI Noise Cancellation | Health Sensors | Siri AI',
-    image: "/airpods-pro3.jpg",
-    link: "/products/airpods-pro-3",
-  },
-  {
-    name: "Galaxy Buds 3 Ultra",
-    brand: "Samsung",
-    specs: 'Galaxy AI Translation | ANC | Real-time Audio',
-    image: "/galaxy-buds3.jpg",
-    link: "/products/galaxy-buds-3-ultra",
-  },
-  {
-    name: "Oura Ring Gen 4",
-    brand: "Oura",
-    specs: 'AI Health Tracking | Sleep Analysis | Fitness',
-    image: "/oura-ring.jpg",
-    link: "/products/oura-ring-gen-4",
-  },
-  {
     name: "Humane AI Pin",
     brand: "Humane",
     specs: 'Standalone AI | Projector Display | Voice Control',

@@ -15,24 +15,6 @@ const products = [
     image: "/meta_quest1.webp",
   },
   {
-    icon: Zap,
-    title: "Meta AI Glasses",
-    description: "Ray-Ban Meta smart glasses with AI assistant and hands-free interaction",
-    price: "$299",
-    color: "from-cyan-500 to-teal-500",
-    link: "/products/meta-ai-glasses",
-    image: "/meta_glasses1.webp",
-  },
-  {
-    icon: Watch,
-    title: "Apple Watch Ultra 3",
-    description: "Advanced smartwatch with AI health tracking and fitness features",
-    price: "$799",
-    color: "from-teal-500 to-green-500",
-    link: "/products/apple-watch-ultra-3",
-    image: "/watch1.png",
-  },
-  {
     icon: Camera,
     title: "Google Nest Cam",
     description: "AI-powered security camera with intelligent alerts",
@@ -67,10 +49,10 @@ export default function AIProducts() {
       <div className="max-w-7xl mx-auto">
         <div className="mb-16 text-center space-y-4">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-            Smart Home <span className="text-accent">Collection</span>
+            AI Powered <span className="text-accent">Smart Home</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Cutting-edge AI-powered smart home devices engineered for convenience and security
+            Transform your home with cutting-edge AI technology
           </p>
         </div>
 

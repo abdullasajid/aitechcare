@@ -99,6 +99,15 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../../app/products/galaxy-ring/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/products/galaxy-ring">> = Specific
+  const handler = {} as typeof import("../../../app/products/galaxy-ring/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../../app/products/google-nest-cam/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/products/google-nest-cam">> = Specific

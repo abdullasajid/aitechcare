@@ -22,12 +22,17 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
                 <a href="/#ai-products" className="hover:text-accent transition">
-                  AI Electronics
+                  Smart Home
                 </a>
               </li>
               <li>
                 <a href="/#smartphones" className="hover:text-accent transition">
                   Smartphones
+                </a>
+              </li>
+              <li>
+                <a href="/#ai-wearables" className="hover:text-accent transition">
+                  Wearables
                 </a>
               </li>
               <li>
