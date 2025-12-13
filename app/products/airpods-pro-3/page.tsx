@@ -1,21 +1,21 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import Image from "next/image"
-import Link from "next/link"
-import { ArrowLeft, Check } from "lucide-react"
-import Navbar from "@/components/navbar"
-import Footer from "@/components/footer"
+import { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { ArrowLeft, Check } from "lucide-react";
+import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 export default function AirPodsPro3() {
-  const [selectedImage, setSelectedImage] = useState(0)
+  const [selectedImage, setSelectedImage] = useState(0);
 
   const images = [
-    "/airpods-pro3.jpg",
-    "/airpods-pro3-2.jpg",
-    "/airpods-pro3-3.jpg",
-    "/airpods-pro3-4.jpg",
-  ]
+    "/airpodspro3.png",
+    "/airpodspro3.png",
+    "/airpodspro3.png",
+    "/airpodspro3.png",
+  ];
 
   return (
     <>
@@ -69,7 +69,8 @@ export default function AirPodsPro3() {
                   AirPods Pro 3
                 </h1>
                 <p className="text-muted-foreground text-lg">
-                  Next-generation wireless earbuds with advanced AI noise cancellation and health tracking
+                  Next-generation wireless earbuds with advanced AI noise
+                  cancellation and health tracking
                 </p>
               </div>
 
@@ -80,27 +81,42 @@ export default function AirPodsPro3() {
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">AI-powered Adaptive Noise Cancellation with personalized profiles</span>
+                    <span className="text-muted-foreground">
+                      AI-powered Adaptive Noise Cancellation with personalized
+                      profiles
+                    </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Advanced health sensors for heart rate and temperature monitoring</span>
+                    <span className="text-muted-foreground">
+                      Advanced health sensors for heart rate and temperature
+                      monitoring
+                    </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Enhanced Siri with contextual AI understanding</span>
+                    <span className="text-muted-foreground">
+                      Enhanced Siri with contextual AI understanding
+                    </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Spatial Audio with dynamic head tracking</span>
+                    <span className="text-muted-foreground">
+                      Spatial Audio with dynamic head tracking
+                    </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Up to 36 hours total battery life with MagSafe charging case</span>
+                    <span className="text-muted-foreground">
+                      Up to 36 hours total battery life with MagSafe charging
+                      case
+                    </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">USB-C charging and improved water resistance (IP55)</span>
+                    <span className="text-muted-foreground">
+                      USB-C charging and improved water resistance (IP55)
+                    </span>
                   </li>
                 </ul>
               </div>
@@ -110,12 +126,25 @@ export default function AirPodsPro3() {
                   Specifications
                 </h2>
                 <div className="space-y-2 text-muted-foreground">
-                  <p><strong>Chip:</strong> H3 Ultra</p>
-                  <p><strong>Battery Life:</strong> 6h (ANC on) / 36h total</p>
-                  <p><strong>Connectivity:</strong> Bluetooth 5.4</p>
-                  <p><strong>Water Resistance:</strong> IP55</p>
-                  <p><strong>Sensors:</strong> Heart rate, Temperature, Accelerometer</p>
-                  <p><strong>Charging:</strong> USB-C, MagSafe, Qi wireless</p>
+                  <p>
+                    <strong>Chip:</strong> H3 Ultra
+                  </p>
+                  <p>
+                    <strong>Battery Life:</strong> 6h (ANC on) / 36h total
+                  </p>
+                  <p>
+                    <strong>Connectivity:</strong> Bluetooth 5.4
+                  </p>
+                  <p>
+                    <strong>Water Resistance:</strong> IP55
+                  </p>
+                  <p>
+                    <strong>Sensors:</strong> Heart rate, Temperature,
+                    Accelerometer
+                  </p>
+                  <p>
+                    <strong>Charging:</strong> USB-C, MagSafe, Qi wireless
+                  </p>
                 </div>
               </div>
             </div>
@@ -124,5 +153,5 @@ export default function AirPodsPro3() {
       </div>
       <Footer />
     </>
-  )
+  );
 }

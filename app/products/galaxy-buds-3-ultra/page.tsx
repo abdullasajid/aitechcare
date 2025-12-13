@@ -1,21 +1,21 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import Image from "next/image"
-import Link from "next/link"
-import { ArrowLeft, Check } from "lucide-react"
-import Navbar from "@/components/navbar"
-import Footer from "@/components/footer"
+import { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { ArrowLeft, Check } from "lucide-react";
+import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 export default function GalaxyBuds3Ultra() {
-  const [selectedImage, setSelectedImage] = useState(0)
+  const [selectedImage, setSelectedImage] = useState(0);
 
   const images = [
-    "/galaxy-buds3.jpg",
-    "/galaxy-buds3-2.jpg",
-    "/galaxy-buds3-3.jpg",
-    "/galaxy-buds3-4.jpg",
-  ]
+    "/galaxybuds3-1.png",
+    "/galaxybuds3-2.png",
+    "/galaxybuds3-3.png",
+    "/galaxybuds3-1.png",
+  ];
 
   return (
     <>
@@ -62,17 +62,18 @@ export default function GalaxyBuds3Ultra() {
               </div>
             </div>
 
-          {/* Product Info */}
-          <div className="space-y-6">
-            <div>
-              <p className="text-accent font-semibold mb-2">Samsung</p>
-              <h1 className="text-4xl font-bold text-foreground mb-4">
-                Galaxy Buds 3 Ultra
-              </h1>
-              <p className="text-lg text-muted-foreground">
-                Premium wireless earbuds with Galaxy AI translation and real-time audio enhancement
-              </p>
-            </div>
+            {/* Product Info */}
+            <div className="space-y-6">
+              <div>
+                <p className="text-accent font-semibold mb-2">Samsung</p>
+                <h1 className="text-4xl font-bold text-foreground mb-4">
+                  Galaxy Buds 3 Ultra
+                </h1>
+                <p className="text-lg text-muted-foreground">
+                  Premium wireless earbuds with Galaxy AI translation and
+                  real-time audio enhancement
+                </p>
+              </div>
 
               <div className="border-t border-border pt-6">
                 <h2 className="text-2xl font-semibold text-foreground mb-4">
@@ -81,27 +82,40 @@ export default function GalaxyBuds3Ultra() {
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Galaxy AI real-time translation in 20+ languages</span>
+                    <span className="text-muted-foreground">
+                      Galaxy AI real-time translation in 20+ languages
+                    </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Intelligent Active Noise Cancellation with 360° Audio</span>
+                    <span className="text-muted-foreground">
+                      Intelligent Active Noise Cancellation with 360° Audio
+                    </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Adaptive EQ that learns your preferences</span>
+                    <span className="text-muted-foreground">
+                      Adaptive EQ that learns your preferences
+                    </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Voice Focus AI for crystal-clear calls</span>
+                    <span className="text-muted-foreground">
+                      Voice Focus AI for crystal-clear calls
+                    </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Up to 40 hours total battery life with wireless charging case</span>
+                    <span className="text-muted-foreground">
+                      Up to 40 hours total battery life with wireless charging
+                      case
+                    </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Premium dual-driver system with Hi-Res Audio certification</span>
+                    <span className="text-muted-foreground">
+                      Premium dual-driver system with Hi-Res Audio certification
+                    </span>
                   </li>
                 </ul>
               </div>
@@ -111,12 +125,25 @@ export default function GalaxyBuds3Ultra() {
                   Specifications
                 </h2>
                 <div className="space-y-2 text-muted-foreground">
-                  <p><strong>Drivers:</strong> Dual driver (11mm + 6.5mm)</p>
-                  <p><strong>Battery Life:</strong> 8h (ANC on) / 40h total</p>
-                  <p><strong>Connectivity:</strong> Bluetooth 5.4, LE Audio</p>
-                  <p><strong>Water Resistance:</strong> IPX7</p>
-                  <p><strong>AI Features:</strong> Translation, Voice Focus, Adaptive EQ</p>
-                  <p><strong>Charging:</strong> USB-C, Qi wireless</p>
+                  <p>
+                    <strong>Drivers:</strong> Dual driver (11mm + 6.5mm)
+                  </p>
+                  <p>
+                    <strong>Battery Life:</strong> 8h (ANC on) / 40h total
+                  </p>
+                  <p>
+                    <strong>Connectivity:</strong> Bluetooth 5.4, LE Audio
+                  </p>
+                  <p>
+                    <strong>Water Resistance:</strong> IPX7
+                  </p>
+                  <p>
+                    <strong>AI Features:</strong> Translation, Voice Focus,
+                    Adaptive EQ
+                  </p>
+                  <p>
+                    <strong>Charging:</strong> USB-C, Qi wireless
+                  </p>
                 </div>
               </div>
             </div>
@@ -125,5 +152,5 @@ export default function GalaxyBuds3Ultra() {
       </div>
       <Footer />
     </>
-  )
+  );
 }

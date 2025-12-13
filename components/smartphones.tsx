@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
-import { Smartphone, Star, ChevronLeft, ChevronRight } from "lucide-react"
-import { useState, useEffect } from "react"
-import Link from "next/link"
+import { Smartphone, Star, ChevronLeft, ChevronRight } from "lucide-react";
+import { useState, useEffect } from "react";
+import Link from "next/link";
 
 const smartphones = [
   {
@@ -54,49 +54,59 @@ const smartphones = [
     image: "motrolla.png",
     link: "/products/motorola-razr-ultra-2025",
   },
-]
+];
 
 export default function Smartphones() {
-  const [currentIndex, setCurrentIndex] = useState(0)
-  const [isMobile, setIsMobile] = useState(false)
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     const checkMobile = () => {
-      setIsMobile(window.innerWidth < 768)
-    }
-    
-    checkMobile()
-    window.addEventListener('resize', checkMobile)
-    
-    return () => window.removeEventListener('resize', checkMobile)
-  }, [])
+      setIsMobile(window.innerWidth < 768);
+    };
 
-  const itemsPerView = isMobile ? 1 : 3
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
+
+  const itemsPerView = isMobile ? 1 : 3;
 
   const nextSlide = () => {
-    setCurrentIndex((prev) => 
+    setCurrentIndex((prev) =>
       prev + itemsPerView >= smartphones.length ? 0 : prev + 1
-    )
-  }
+    );
+  };
 
   const prevSlide = () => {
-    setCurrentIndex((prev) => 
+    setCurrentIndex((prev) =>
       prev === 0 ? Math.max(0, smartphones.length - itemsPerView) : prev - 1
-    )
-  }
+    );
+  };
 
-  const visiblePhones = smartphones.slice(currentIndex, currentIndex + itemsPerView)
+  const visiblePhones = smartphones.slice(
+    currentIndex,
+    currentIndex + itemsPerView
+  );
   if (visiblePhones.length < itemsPerView) {
-    visiblePhones.push(...smartphones.slice(0, itemsPerView - visiblePhones.length))
+    visiblePhones.push(
+      ...smartphones.slice(0, itemsPerView - visiblePhones.length)
+    );
   }
 
   return (
-    <section id="smartphones" className="py-20 px-4 sm:px-6 lg:px-8 bg-secondary">
+    <section
+      id="smartphones"
+      className="py-20 px-4 sm:px-6 lg:px-8 bg-background"
+    >
       <div className="max-w-7xl mx-auto">
         <div className="mb-16 text-center space-y-4">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-accent/20 border border-accent/40 rounded-full">
             <Smartphone className="w-4 h-4 text-accent" />
-            <span className="text-sm text-accent font-medium">Premium Collection</span>
+            <span className="text-sm text-accent font-medium">
+              Premium Collection
+            </span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground">
             AI-Powered <span className="text-accent">Phones</span>
@@ -128,7 +138,11 @@ export default function Smartphones() {
           <div className="overflow-hidden">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 transition-all duration-500">
               {visiblePhones.map((phone, index) => (
-                <Link key={`${phone.name}-${index}`} href={phone.link} className="group block">
+                <Link
+                  key={`${phone.name}-${index}`}
+                  href={phone.link}
+                  className="group block"
+                >
                   {/* Image Container */}
                   <div className="relative mb-6 bg-gradient-to-br from-accent/20 to-primary/20 rounded-xl overflow-hidden border border-border aspect-video flex items-center justify-center group-hover:border-accent/50 transition">
                     <img
@@ -141,10 +155,16 @@ export default function Smartphones() {
                   {/* Details */}
                   <div className="space-y-3">
                     <div>
-                      <p className="text-sm text-accent font-semibold mb-1">{phone.brand}</p>
-                      <h3 className="text-xl font-bold text-foreground">{phone.name}</h3>
+                      <p className="text-sm text-accent font-semibold mb-1">
+                        {phone.brand}
+                      </p>
+                      <h3 className="text-xl font-bold text-foreground">
+                        {phone.name}
+                      </h3>
                     </div>
-                    <p className="text-sm text-muted-foreground">{phone.specs}</p>
+                    <p className="text-sm text-muted-foreground">
+                      {phone.specs}
+                    </p>
 
                     {/* Button */}
                     <div className="flex justify-center md:justify-end pt-4 border-t border-border">
@@ -160,19 +180,21 @@ export default function Smartphones() {
 
           {/* Carousel Indicators */}
           <div className="flex justify-center gap-2 mt-8">
-            {Array.from({ length: smartphones.length - itemsPerView + 1 }).map((_, index) => (
-              <button
-                key={index}
-                onClick={() => setCurrentIndex(index)}
-                className={`w-2 h-2 rounded-full transition ${
-                  currentIndex === index ? "bg-accent w-8" : "bg-border"
-                }`}
-                aria-label={`Go to slide ${index + 1}`}
-              />
-            ))}
+            {Array.from({ length: smartphones.length - itemsPerView + 1 }).map(
+              (_, index) => (
+                <button
+                  key={index}
+                  onClick={() => setCurrentIndex(index)}
+                  className={`w-2 h-2 rounded-full transition ${
+                    currentIndex === index ? "bg-accent w-8" : "bg-border"
+                  }`}
+                  aria-label={`Go to slide ${index + 1}`}
+                />
+              )
+            )}
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }

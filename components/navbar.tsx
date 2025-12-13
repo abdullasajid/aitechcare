@@ -1,11 +1,11 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { Menu, X } from "lucide-react"
-import Link from "next/link"
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
+import Link from "next/link";
 
 export default function Navbar() {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <nav className="fixed w-full top-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
@@ -13,31 +13,57 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
-              <span className="text-accent-foreground font-bold text-sm">AT</span>
+              <span className="text-accent-foreground font-bold text-sm">
+                AT
+              </span>
             </div>
             <span className="font-bold text-xl text-foreground">AITech</span>
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex gap-8 items-center">
-            <a href="/#ai-products" className="text-muted-foreground hover:text-accent transition">
+            <a
+              href="/#ai-gadgets"
+              className="text-muted-foreground hover:text-accent transition"
+            >
+              AI Gadgets
+            </a>
+            <a
+              href="/#ai-products"
+              className="text-muted-foreground hover:text-accent transition"
+            >
               Smart Home
             </a>
-            <a href="/#smartphones" className="text-muted-foreground hover:text-accent transition">
+            <a
+              href="/#smartphones"
+              className="text-muted-foreground hover:text-accent transition"
+            >
               Smartphones
             </a>
-            <a href="/#ai-wearables" className="text-muted-foreground hover:text-accent transition">
+            <a
+              href="/#ai-wearables"
+              className="text-muted-foreground hover:text-accent transition"
+            >
               Wearables
             </a>
-            <a href="/#ai-accessories" className="text-muted-foreground hover:text-accent transition">
+            <a
+              href="/#accessories"
+              className="text-muted-foreground hover:text-accent transition"
+            >
               Accessories
             </a>
-            <Link href="/about" className="text-muted-foreground hover:text-accent transition">
+            <Link
+              href="/about"
+              className="text-muted-foreground hover:text-accent transition"
+            >
               About
             </Link>
-            <a href="#" className="text-muted-foreground hover:text-accent transition">
+            <Link
+              href="/contact"
+              className="text-muted-foreground hover:text-accent transition"
+            >
               Contact
-            </a>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -49,27 +75,51 @@ export default function Navbar() {
         {/* Mobile Navigation */}
         {isOpen && (
           <div className="md:hidden pb-4 space-y-3">
-            <a href="/#ai-products" className="block text-muted-foreground hover:text-accent transition">
+            <a
+              href="/#ai-gadgets"
+              className="block text-muted-foreground hover:text-accent transition"
+            >
+              AI Gadgets
+            </a>
+            <a
+              href="/#ai-products"
+              className="block text-muted-foreground hover:text-accent transition"
+            >
               Smart Home
             </a>
-            <a href="/#smartphones" className="block text-muted-foreground hover:text-accent transition">
+            <a
+              href="/#smartphones"
+              className="block text-muted-foreground hover:text-accent transition"
+            >
               Smartphones
             </a>
-            <a href="/#ai-wearables" className="block text-muted-foreground hover:text-accent transition">
+            <a
+              href="/#ai-wearables"
+              className="block text-muted-foreground hover:text-accent transition"
+            >
               Wearables
             </a>
-            <a href="/#ai-accessories" className="block text-muted-foreground hover:text-accent transition">
+            <a
+              href="/#accessories"
+              className="block text-muted-foreground hover:text-accent transition"
+            >
               Accessories
             </a>
-            <Link href="/about" className="block text-muted-foreground hover:text-accent transition">
+            <Link
+              href="/about"
+              className="block text-muted-foreground hover:text-accent transition"
+            >
               About
             </Link>
-            <a href="#" className="block text-muted-foreground hover:text-accent transition">
+            <Link
+              href="/contact"
+              className="block text-muted-foreground hover:text-accent transition"
+            >
               Contact
-            </a>
+            </Link>
           </div>
         )}
       </div>
     </nav>
-  )
+  );
 }

@@ -1,19 +1,10 @@
-"use client"
+"use client";
 
-import { Glasses, Zap, Watch, Camera, Brain, Speaker } from "lucide-react"
-import Link from "next/link"
-import Image from "next/image"
+import { Glasses, Zap, Watch, Camera, Brain, Speaker, Bot } from "lucide-react";
+import Link from "next/link";
+import Image from "next/image";
 
 const products = [
-  {
-    icon: Glasses,
-    title: "Meta Quest 3",
-    description: "Next-gen VR headset with mixed reality and AI-powered features",
-    price: "$499",
-    color: "from-blue-500 to-cyan-500",
-    link: "/products/meta-quest-3",
-    image: "/meta_quest1.webp",
-  },
   {
     icon: Camera,
     title: "Google Nest Cam",
@@ -41,15 +32,36 @@ const products = [
     link: "/products/apple-homepod",
     image: "/homepod1.png",
   },
-]
+  {
+    icon: Bot,
+    title: "Roomba J9+",
+    description: "AI-powered robot vacuum with smart mapping",
+    price: "$899",
+    color: "from-purple-500 to-pink-500",
+    link: "/products/roomba-j9",
+    image: "/roomba1.webp",
+  },
+  {
+    icon: Bot,
+    title: "Roborock S8",
+    description: "Advanced AI cleaning with sonic mopping",
+    price: "$799",
+    color: "from-orange-500 to-red-500",
+    link: "/products/roborock-s8",
+    image: "/roborock1.png",
+  },
+];
 
 export default function AIProducts() {
   return (
-    <section id="ai-products" className="py-20 px-4 sm:px-6 lg:px-8 bg-background">
+    <section
+      id="ai-products"
+      className="py-20 px-4 sm:px-6 lg:px-8 bg-background"
+    >
       <div className="max-w-7xl mx-auto">
         <div className="mb-16 text-center space-y-4">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-            AI Powered <span className="text-accent">Smart Home</span>
+            AI-Powered <span className="text-accent">Smart Home</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Transform your home with cutting-edge AI technology
@@ -58,7 +70,7 @@ export default function AIProducts() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {products.map((product, index) => {
-            const Icon = product.icon
+            const Icon = product.icon;
             return (
               <Link
                 key={index}
@@ -87,21 +99,25 @@ export default function AIProducts() {
 
                 {/* Content */}
                 <div className="p-6">
-                <h3 className="text-xl font-bold text-foreground mb-2">{product.title}</h3>
-                <p className="text-muted-foreground mb-4 text-sm leading-relaxed">{product.description}</p>
+                  <h3 className="text-xl font-bold text-foreground mb-2">
+                    {product.title}
+                  </h3>
+                  <p className="text-muted-foreground mb-4 text-sm leading-relaxed">
+                    {product.description}
+                  </p>
 
-                {/* CTA */}
-                <div className="flex justify-end pt-4 border-t border-border">
-                  <span className="px-4 py-2 bg-accent/20 group-hover:bg-accent text-accent group-hover:text-primary-foreground rounded-lg transition text-sm font-medium">
-                    Check It Out
-                  </span>
-                </div>
+                  {/* CTA */}
+                  <div className="flex justify-end pt-4 border-t border-border">
+                    <span className="px-4 py-2 bg-accent/20 group-hover:bg-accent text-accent group-hover:text-primary-foreground rounded-lg transition text-sm font-medium">
+                      Check It Out
+                    </span>
+                  </div>
                 </div>
               </Link>
-            )
+            );
           })}
         </div>
       </div>
     </section>
-  )
+  );
 }

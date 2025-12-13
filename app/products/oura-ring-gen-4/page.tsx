@@ -1,21 +1,16 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import Image from "next/image"
-import Link from "next/link"
-import { ArrowLeft, Check } from "lucide-react"
-import Navbar from "@/components/navbar"
-import Footer from "@/components/footer"
+import { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { ArrowLeft, Check } from "lucide-react";
+import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 export default function OuraRingGen4() {
-  const [selectedImage, setSelectedImage] = useState(0)
+  const [selectedImage, setSelectedImage] = useState(0);
 
-  const images = [
-    "/oura-ring.jpg",
-    "/oura-ring-2.jpg",
-    "/oura-ring-3.jpg",
-    "/oura-ring-4.jpg",
-  ]
+  const images = ["/ouraring-1.png", "/ouraring-2.png"];
 
   return (
     <>
@@ -62,17 +57,18 @@ export default function OuraRingGen4() {
               </div>
             </div>
 
-          {/* Product Info */}
-          <div className="space-y-6">
-            <div>
-              <p className="text-accent font-semibold mb-2">Oura</p>
-              <h1 className="text-4xl font-bold text-foreground mb-4">
-                Oura Ring Gen 4
-              </h1>
-              <p className="text-lg text-muted-foreground">
-                Advanced AI-powered health tracking ring with comprehensive sleep and fitness analysis
-              </p>
-            </div>
+            {/* Product Info */}
+            <div className="space-y-6">
+              <div>
+                <p className="text-accent font-semibold mb-2">Oura</p>
+                <h1 className="text-4xl font-bold text-foreground mb-4">
+                  Oura Ring Gen 4
+                </h1>
+                <p className="text-lg text-muted-foreground">
+                  Advanced AI-powered health tracking ring with comprehensive
+                  sleep and fitness analysis
+                </p>
+              </div>
 
               <div className="border-t border-border pt-6">
                 <h2 className="text-2xl font-semibold text-foreground mb-4">
@@ -81,27 +77,40 @@ export default function OuraRingGen4() {
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">AI-powered sleep staging with personalized insights</span>
+                    <span className="text-muted-foreground">
+                      AI-powered sleep staging with personalized insights
+                    </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Advanced heart rate variability and cardiovascular monitoring</span>
+                    <span className="text-muted-foreground">
+                      Advanced heart rate variability and cardiovascular
+                      monitoring
+                    </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Body temperature tracking with fever detection</span>
+                    <span className="text-muted-foreground">
+                      Body temperature tracking with fever detection
+                    </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Activity and workout tracking with automatic detection</span>
+                    <span className="text-muted-foreground">
+                      Activity and workout tracking with automatic detection
+                    </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Up to 8 days battery life on a single charge</span>
+                    <span className="text-muted-foreground">
+                      Up to 8 days battery life on a single charge
+                    </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Lightweight titanium design with scratch-resistant coating</span>
+                    <span className="text-muted-foreground">
+                      Lightweight titanium design with scratch-resistant coating
+                    </span>
                   </li>
                 </ul>
               </div>
@@ -111,12 +120,25 @@ export default function OuraRingGen4() {
                   Specifications
                 </h2>
                 <div className="space-y-2 text-muted-foreground">
-                  <p><strong>Material:</strong> Titanium with PVD coating</p>
-                  <p><strong>Battery Life:</strong> Up to 8 days</p>
-                  <p><strong>Water Resistance:</strong> 100m (10 ATM)</p>
-                  <p><strong>Weight:</strong> 3-6g (size dependent)</p>
-                  <p><strong>Sensors:</strong> PPG, Temperature, Accelerometer, Gyroscope</p>
-                  <p><strong>Connectivity:</strong> Bluetooth 5.4 LE</p>
+                  <p>
+                    <strong>Material:</strong> Titanium with PVD coating
+                  </p>
+                  <p>
+                    <strong>Battery Life:</strong> Up to 8 days
+                  </p>
+                  <p>
+                    <strong>Water Resistance:</strong> 100m (10 ATM)
+                  </p>
+                  <p>
+                    <strong>Weight:</strong> 3-6g (size dependent)
+                  </p>
+                  <p>
+                    <strong>Sensors:</strong> PPG, Temperature, Accelerometer,
+                    Gyroscope
+                  </p>
+                  <p>
+                    <strong>Connectivity:</strong> Bluetooth 5.4 LE
+                  </p>
                 </div>
               </div>
             </div>
@@ -125,5 +147,5 @@ export default function OuraRingGen4() {
       </div>
       <Footer />
     </>
-  )
+  );
 }
