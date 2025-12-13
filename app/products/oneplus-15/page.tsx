@@ -11,10 +11,9 @@ export default function OnePlus15Page() {
   const [selectedImage, setSelectedImage] = useState(0)
 
   const images = [
-    "/oneplus15.jpg",
-    "/oneplus15-2.jpg",
-    "/oneplus15-3.jpg",
-    "/oneplus15-4.jpg",
+    "/oneplus-1.webp",
+    "/oneplus-2.webp",
+    "/oneplus-3.png",
   ]
 
   const features = [

@@ -11,10 +11,13 @@ export default function SamsungGalaxyS25UltraPage() {
   const [selectedImage, setSelectedImage] = useState(0)
 
   const images = [
-    "/samsung-s25.jpg",
-    "/samsung-s25-2.jpg",
-    "/samsung-s25-3.jpg",
-    "/samsung-s25-4.jpg",
+    "/s25-1.avif",
+    "/s25-2.avif",
+    "/s25-3.avif",
+    "/s25-4.avif",
+    "/s25-5.avif",
+    "/s25-6.avif",
+    "/s25-7.avif",
   ]
 
   const features = [

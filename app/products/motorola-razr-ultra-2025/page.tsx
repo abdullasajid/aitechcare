@@ -11,10 +11,10 @@ export default function MotorolaRazrUltra2025Page() {
   const [selectedImage, setSelectedImage] = useState(0)
 
   const images = [
-    "/motorola-razr.jpg",
-    "/motorola-razr-2.jpg",
-    "/motorola-razr-3.jpg",
-    "/motorola-razr-4.jpg",
+    "/motrolla-1.webp",
+    "/motrolla-2.avif",
+    "/motrolla-3.webp",
+    "/motrolla-4.webp",
   ]
 
   const features = [

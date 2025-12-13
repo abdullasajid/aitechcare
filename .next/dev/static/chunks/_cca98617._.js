@@ -599,35 +599,35 @@ const smartphones = [
         name: "Samsung Galaxy S25 Ultra",
         brand: "Samsung",
         specs: '6.9" AMOLED | 1TB | Snapdragon 8 Elite | Galaxy AI 2.0',
-        image: "/samsung-s25.jpg",
+        image: "/s25.png",
         link: "/products/samsung-galaxy-s25-ultra"
     },
     {
         name: "Google Pixel 10 Pro XL",
         brand: "Google",
         specs: '6.8" OLED | 1TB | Tensor G5 | Gemini 2.0 AI',
-        image: "/pixel10.jpg",
+        image: "/pixel.png",
         link: "/products/google-pixel-10-pro-xl"
     },
     {
         name: "OnePlus 15",
         brand: "OnePlus",
         specs: '6.8" AMOLED | 1TB | Snapdragon 8 Elite Gen 2 | OnePlus AI',
-        image: "/oneplus15.jpg",
+        image: "oneplus.png",
         link: "/products/oneplus-15"
     },
     {
         name: "Nothing Phone (3)",
         brand: "Nothing",
         specs: '6.7" AMOLED | 512GB | Snapdragon 8s Gen 3 | Glyph AI',
-        image: "/nothing-phone.jpg",
+        image: "/nothing.png",
         link: "/products/nothing-phone-3"
     },
     {
         name: "Motorola Razr Ultra 2025",
         brand: "Motorola",
         specs: '6.9" pOLED Flip | 512GB | Snapdragon 8 Elite | Moto AI 2.0',
-        image: "/motorola-razr.jpg",
+        image: "motrolla.png",
         link: "/products/motorola-razr-ultra-2025"
     }
 ];
@@ -820,9 +820,9 @@ function Smartphones() {
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "flex justify-end pt-4 border-t border-border",
+                                                        className: "flex justify-center md:justify-end pt-4 border-t border-border",
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                            className: "px-4 py-2 bg-accent text-primary-foreground rounded-lg hover:opacity-90 transition font-medium text-sm",
+                                                            className: "w-full md:w-auto px-4 py-2 bg-accent text-primary-foreground rounded-lg hover:opacity-90 transition font-medium text-sm",
                                                             children: "Check It Out"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/smartphones.tsx",
@@ -1145,9 +1145,9 @@ function AIAccessories() {
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "flex justify-end pt-4 border-t border-border",
+                                                        className: "flex justify-center md:justify-end pt-4 border-t border-border",
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                            className: "px-4 py-2 bg-accent text-primary-foreground rounded-lg hover:opacity-90 transition font-medium text-sm",
+                                                            className: "w-full md:w-auto px-4 py-2 bg-accent text-primary-foreground rounded-lg hover:opacity-90 transition font-medium text-sm",
                                                             children: "Check It Out"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/ai-accessories.tsx",

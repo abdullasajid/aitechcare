@@ -11,10 +11,7 @@ export default function NothingPhone3Page() {
   const [selectedImage, setSelectedImage] = useState(0)
 
   const images = [
-    "/nothing-phone.jpg",
-    "/nothing-phone-2.jpg",
-    "/nothing-phone-3.jpg",
-    "/nothing-phone-4.jpg",
+    "/nothing.webp",
   ]
 
   const features = [

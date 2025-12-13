@@ -23,35 +23,35 @@ const smartphones = [
     name: "Samsung Galaxy S25 Ultra",
     brand: "Samsung",
     specs: '6.9" AMOLED | 1TB | Snapdragon 8 Elite | Galaxy AI 2.0',
-    image: "/samsung-s25.jpg",
+    image: "/s25.png",
     link: "/products/samsung-galaxy-s25-ultra",
   },
   {
     name: "Google Pixel 10 Pro XL",
     brand: "Google",
     specs: '6.8" OLED | 1TB | Tensor G5 | Gemini 2.0 AI',
-    image: "/pixel10.jpg",
+    image: "/pixel.png",
     link: "/products/google-pixel-10-pro-xl",
   },
   {
     name: "OnePlus 15",
     brand: "OnePlus",
     specs: '6.8" AMOLED | 1TB | Snapdragon 8 Elite Gen 2 | OnePlus AI',
-    image: "/oneplus15.jpg",
+    image: "oneplus.png",
     link: "/products/oneplus-15",
   },
   {
     name: "Nothing Phone (3)",
     brand: "Nothing",
     specs: '6.7" AMOLED | 512GB | Snapdragon 8s Gen 3 | Glyph AI',
-    image: "/nothing-phone.jpg",
+    image: "/nothing.png",
     link: "/products/nothing-phone-3",
   },
   {
     name: "Motorola Razr Ultra 2025",
     brand: "Motorola",
     specs: '6.9" pOLED Flip | 512GB | Snapdragon 8 Elite | Moto AI 2.0',
-    image: "/motorola-razr.jpg",
+    image: "motrolla.png",
     link: "/products/motorola-razr-ultra-2025",
   },
 ]
@@ -147,8 +147,8 @@ export default function Smartphones() {
                     <p className="text-sm text-muted-foreground">{phone.specs}</p>
 
                     {/* Button */}
-                    <div className="flex justify-end pt-4 border-t border-border">
-                      <button className="px-4 py-2 bg-accent text-primary-foreground rounded-lg hover:opacity-90 transition font-medium text-sm">
+                    <div className="flex justify-center md:justify-end pt-4 border-t border-border">
+                      <button className="w-full md:w-auto px-4 py-2 bg-accent text-primary-foreground rounded-lg hover:opacity-90 transition font-medium text-sm">
                         Check It Out
                       </button>
                     </div>

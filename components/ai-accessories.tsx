@@ -133,8 +133,8 @@ export default function AIAccessories() {
                     <p className="text-sm text-muted-foreground">{accessory.specs}</p>
 
                     {/* Button */}
-                    <div className="flex justify-end pt-4 border-t border-border">
-                      <button className="px-4 py-2 bg-accent text-primary-foreground rounded-lg hover:opacity-90 transition font-medium text-sm">
+                    <div className="flex justify-center md:justify-end pt-4 border-t border-border">
+                      <button className="w-full md:w-auto px-4 py-2 bg-accent text-primary-foreground rounded-lg hover:opacity-90 transition font-medium text-sm">
                         Check It Out
                       </button>
                     </div>

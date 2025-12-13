@@ -11,10 +11,7 @@ export default function GooglePixel10ProXLPage() {
   const [selectedImage, setSelectedImage] = useState(0)
 
   const images = [
-    "/pixel10.jpg",
-    "/pixel10-2.jpg",
-    "/pixel10-3.jpg",
-    "/pixel10-4.jpg",
+    "/pixel.png"
   ]
 
   const features = [
