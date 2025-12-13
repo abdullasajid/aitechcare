@@ -54,6 +54,15 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../../app/products/airpods-pro-3/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/products/airpods-pro-3">> = Specific
+  const handler = {} as typeof import("../../../app/products/airpods-pro-3/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../../app/products/amazon-echo-hub/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/products/amazon-echo-hub">> = Specific
@@ -76,6 +85,15 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 {
   type __IsExpected<Specific extends AppPageConfig<"/products/apple-watch-ultra-3">> = Specific
   const handler = {} as typeof import("../../../app/products/apple-watch-ultra-3/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/products/galaxy-buds-3-ultra/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/products/galaxy-buds-3-ultra">> = Specific
+  const handler = {} as typeof import("../../../app/products/galaxy-buds-3-ultra/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
@@ -112,6 +130,15 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 {
   type __IsExpected<Specific extends AppPageConfig<"/products/google-pixel-9-pro">> = Specific
   const handler = {} as typeof import("../../../app/products/google-pixel-9-pro/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/products/humane-ai-pin/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/products/humane-ai-pin">> = Specific
+  const handler = {} as typeof import("../../../app/products/humane-ai-pin/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
@@ -229,6 +256,24 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 {
   type __IsExpected<Specific extends AppPageConfig<"/products/oneplus-15">> = Specific
   const handler = {} as typeof import("../../../app/products/oneplus-15/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/products/oura-ring-gen-4/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/products/oura-ring-gen-4">> = Specific
+  const handler = {} as typeof import("../../../app/products/oura-ring-gen-4/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/products/rabbit-r1/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/products/rabbit-r1">> = Specific
+  const handler = {} as typeof import("../../../app/products/rabbit-r1/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check

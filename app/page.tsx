@@ -3,6 +3,7 @@ import Navbar from "@/components/navbar"
 import Hero from "@/components/hero"
 import AIProducts from "@/components/ai-products"
 import Smartphones from "@/components/smartphones"
+import AIAccessories from "@/components/ai-accessories"
 import Footer from "@/components/footer"
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <AIProducts />
       <Smartphones />
+      <AIAccessories />
       <Footer />
     </main>
   )

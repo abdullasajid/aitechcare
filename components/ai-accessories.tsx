@@ -1,62 +1,48 @@
 "use client"
 
-import { Smartphone, Star, ChevronLeft, ChevronRight } from "lucide-react"
+import { Headphones, Star, ChevronLeft, ChevronRight } from "lucide-react"
 import { useState, useEffect } from "react"
 import Link from "next/link"
 
-const smartphones = [
+const accessories = [
   {
-    name: "iPhone 17 Pro Max",
+    name: "AirPods Pro 3",
     brand: "Apple",
-    specs: '6.9" OLED | 2TB | A19 Pro | Apple Intelligence 2.0',
-    image: "/iphone17.jpg",
-    link: "/products/iphone-17-pro-max",
+    specs: 'AI Noise Cancellation | Health Sensors | Siri AI',
+    image: "/airpods-pro3.jpg",
+    link: "/products/airpods-pro-3",
   },
   {
-    name: "iPhone Air",
-    brand: "Apple",
-    specs: '6.6" OLED | 512GB | A19 | Ultra-thin Design',
-    image: "/iphone-air.jpg",
-    link: "/products/iphone-air",
-  },
-  {
-    name: "Samsung Galaxy S25 Ultra",
+    name: "Galaxy Buds 3 Ultra",
     brand: "Samsung",
-    specs: '6.9" AMOLED | 1TB | Snapdragon 8 Elite | Galaxy AI 2.0',
-    image: "/samsung-s25.jpg",
-    link: "/products/samsung-galaxy-s25-ultra",
+    specs: 'Galaxy AI Translation | ANC | Real-time Audio',
+    image: "/galaxy-buds3.jpg",
+    link: "/products/galaxy-buds-3-ultra",
   },
   {
-    name: "Google Pixel 10 Pro XL",
-    brand: "Google",
-    specs: '6.8" OLED | 1TB | Tensor G5 | Gemini 2.0 AI',
-    image: "/pixel10.jpg",
-    link: "/products/google-pixel-10-pro-xl",
+    name: "Oura Ring Gen 4",
+    brand: "Oura",
+    specs: 'AI Health Tracking | Sleep Analysis | Fitness',
+    image: "/oura-ring.jpg",
+    link: "/products/oura-ring-gen-4",
   },
   {
-    name: "OnePlus 15",
-    brand: "OnePlus",
-    specs: '6.8" AMOLED | 1TB | Snapdragon 8 Elite Gen 2 | OnePlus AI',
-    image: "/oneplus15.jpg",
-    link: "/products/oneplus-15",
+    name: "Humane AI Pin",
+    brand: "Humane",
+    specs: 'Standalone AI | Projector Display | Voice Control',
+    image: "/humane-pin.jpg",
+    link: "/products/humane-ai-pin",
   },
   {
-    name: "Nothing Phone (3)",
-    brand: "Nothing",
-    specs: '6.7" AMOLED | 512GB | Snapdragon 8s Gen 3 | Glyph AI',
-    image: "/nothing-phone.jpg",
-    link: "/products/nothing-phone-3",
-  },
-  {
-    name: "Motorola Razr Ultra 2025",
-    brand: "Motorola",
-    specs: '6.9" pOLED Flip | 512GB | Snapdragon 8 Elite | Moto AI 2.0',
-    image: "/motorola-razr.jpg",
-    link: "/products/motorola-razr-ultra-2025",
+    name: "Rabbit R1",
+    brand: "Rabbit",
+    specs: 'AI Assistant Device | Touchscreen | Voice Commands',
+    image: "/rabbit-r1.jpg",
+    link: "/products/rabbit-r1",
   },
 ]
 
-export default function Smartphones() {
+export default function AIAccessories() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isMobile, setIsMobile] = useState(false)
 
@@ -75,34 +61,34 @@ export default function Smartphones() {
 
   const nextSlide = () => {
     setCurrentIndex((prev) => 
-      prev + itemsPerView >= smartphones.length ? 0 : prev + 1
+      prev + itemsPerView >= accessories.length ? 0 : prev + 1
     )
   }
 
   const prevSlide = () => {
     setCurrentIndex((prev) => 
-      prev === 0 ? Math.max(0, smartphones.length - itemsPerView) : prev - 1
+      prev === 0 ? Math.max(0, accessories.length - itemsPerView) : prev - 1
     )
   }
 
-  const visiblePhones = smartphones.slice(currentIndex, currentIndex + itemsPerView)
-  if (visiblePhones.length < itemsPerView) {
-    visiblePhones.push(...smartphones.slice(0, itemsPerView - visiblePhones.length))
+  const visibleAccessories = accessories.slice(currentIndex, currentIndex + itemsPerView)
+  if (visibleAccessories.length < itemsPerView) {
+    visibleAccessories.push(...accessories.slice(0, itemsPerView - visibleAccessories.length))
   }
 
   return (
-    <section id="smartphones" className="py-20 px-4 sm:px-6 lg:px-8 bg-secondary">
+    <section id="ai-accessories" className="py-20 px-4 sm:px-6 lg:px-8 bg-background">
       <div className="max-w-7xl mx-auto">
         <div className="mb-16 text-center space-y-4">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-accent/20 border border-accent/40 rounded-full">
-            <Smartphone className="w-4 h-4 text-accent" />
-            <span className="text-sm text-accent font-medium">Premium Collection</span>
+            <Headphones className="w-4 h-4 text-accent" />
+            <span className="text-sm text-accent font-medium">Smart Accessories</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-            AI-Powered <span className="text-accent">Phones</span>
+            AI <span className="text-accent">Accessories</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Experience premium performance with AI-enhanced flagship smartphones
+            Next-generation AI-powered wearables and smart accessories
           </p>
         </div>
 
@@ -127,13 +113,13 @@ export default function Smartphones() {
           {/* Carousel Content */}
           <div className="overflow-hidden">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 transition-all duration-500">
-              {visiblePhones.map((phone, index) => (
-                <Link key={`${phone.name}-${index}`} href={phone.link} className="group block">
+              {visibleAccessories.map((accessory, index) => (
+                <Link key={`${accessory.name}-${index}`} href={accessory.link} className="group block">
                   {/* Image Container */}
                   <div className="relative mb-6 bg-gradient-to-br from-accent/20 to-primary/20 rounded-xl overflow-hidden border border-border aspect-video flex items-center justify-center group-hover:border-accent/50 transition">
                     <img
-                      src={phone.image || "/placeholder.svg"}
-                      alt={phone.name}
+                      src={accessory.image || "/placeholder.svg"}
+                      alt={accessory.name}
                       className="w-full h-full object-cover group-hover:scale-105 transition duration-300"
                     />
                   </div>
@@ -141,10 +127,10 @@ export default function Smartphones() {
                   {/* Details */}
                   <div className="space-y-3">
                     <div>
-                      <p className="text-sm text-accent font-semibold mb-1">{phone.brand}</p>
-                      <h3 className="text-xl font-bold text-foreground">{phone.name}</h3>
+                      <p className="text-sm text-accent font-semibold mb-1">{accessory.brand}</p>
+                      <h3 className="text-xl font-bold text-foreground">{accessory.name}</h3>
                     </div>
-                    <p className="text-sm text-muted-foreground">{phone.specs}</p>
+                    <p className="text-sm text-muted-foreground">{accessory.specs}</p>
 
                     {/* Button */}
                     <div className="flex justify-end pt-4 border-t border-border">
@@ -160,7 +146,7 @@ export default function Smartphones() {
 
           {/* Carousel Indicators */}
           <div className="flex justify-center gap-2 mt-8">
-            {Array.from({ length: smartphones.length - itemsPerView + 1 }).map((_, index) => (
+            {Array.from({ length: accessories.length - itemsPerView + 1 }).map((_, index) => (
               <button
                 key={index}
                 onClick={() => setCurrentIndex(index)}
