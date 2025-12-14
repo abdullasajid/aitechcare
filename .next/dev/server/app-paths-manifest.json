@@ -1,5 +1,6 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
+  "/contact/page": "app/contact/page.js",
   "/page": "app/page.js",
   "/products/plaud-note/page": "app/products/plaud-note/page.js",
   "/products/rabbit-r1/page": "app/products/rabbit-r1/page.js"

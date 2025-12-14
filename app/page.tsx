@@ -6,6 +6,7 @@ import AIProducts from "@/components/ai-products";
 import Smartphones from "@/components/smartphones";
 import AIWearables from "@/components/ai-wearables";
 import Accessories from "@/components/ai-accessories";
+import RepairLab from "@/components/repair-lab";
 import Footer from "@/components/footer";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <Smartphones />
       <AIWearables />
       <Accessories />
+      <RepairLab />
       <Footer />
     </main>
   );
