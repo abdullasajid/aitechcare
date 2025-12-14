@@ -45,7 +45,7 @@ export default function AIGadgets() {
       <div className="max-w-7xl mx-auto">
         <div className="mb-16 text-center space-y-4">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-            AI-Powered <span className="text-accent">Gadgets</span>
+            AI-Powered <span className="text-accent">Devices</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Innovative AI companions and smart gadgets for everyday life

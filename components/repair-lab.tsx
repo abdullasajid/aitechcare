@@ -34,7 +34,7 @@ export default function RepairLab() {
           {/* Image Section */}
           <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
             <Image
-              src="/repair_lab.webp"
+              src="/repair_lab.jpeg"
               alt="AI Tech Care Repair Lab"
               fill
               className="object-cover"

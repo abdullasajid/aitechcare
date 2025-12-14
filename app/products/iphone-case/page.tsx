@@ -10,7 +10,7 @@ import Footer from "@/components/footer";
 export default function iPhoneCasePage() {
   const [selectedImage, setSelectedImage] = useState(0);
 
-  const images = ["/iphone-case.jpg"];
+  const images = ["/17magsafe.png"];
 
   const features = [
     "Silky, soft-touch silicone exterior",

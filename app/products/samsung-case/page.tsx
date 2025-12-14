@@ -10,7 +10,7 @@ import Footer from "@/components/footer";
 export default function SamsungCasePage() {
   const [selectedImage, setSelectedImage] = useState(0);
 
-  const images = ["/samsung-case.jpg"];
+  const images = ["/s25clearcase.png"];
 
   const features = [
     "Military-grade drop protection (MIL-STD-810G)",

@@ -10,7 +10,7 @@ import Footer from "@/components/footer";
 export default function USBCCablePage() {
   const [selectedImage, setSelectedImage] = useState(0);
 
-  const images = ["/usbc-cable.jpg"];
+  const images = ["/belkinusb.png"];
 
   const features = [
     "100W Power Delivery support",

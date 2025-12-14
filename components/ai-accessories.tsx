@@ -18,7 +18,7 @@ const accessories = [
     brand: "Anker",
     specs: "20000mAh | 30W PD Fast Charging",
     price: "$59",
-    image: "/anker-powerbank.jpg",
+    image: "/ankerpowercore.png",
     link: "/products/anker-powercore",
   },
   {
@@ -26,7 +26,7 @@ const accessories = [
     brand: "Belkin",
     specs: "100W Power Delivery | Braided Design",
     price: "$24",
-    image: "/usbc-cable.jpg",
+    image: "/belkinusb.png",
     link: "/products/usbc-cable",
   },
   {
@@ -34,7 +34,7 @@ const accessories = [
     brand: "Apple",
     specs: "Silicone | MagSafe Compatible | Drop Protection",
     price: "$49",
-    image: "/iphone-case.jpg",
+    image: "/17magsafe.png",
     link: "/products/iphone-case",
   },
   {
@@ -42,7 +42,7 @@ const accessories = [
     brand: "Samsung",
     specs: "Military Grade Protection | Crystal Clear",
     price: "$34",
-    image: "/samsung-case.jpg",
+    image: "/s25clearcase.png",
     link: "/products/samsung-case",
   },
   {
@@ -58,7 +58,7 @@ const accessories = [
     brand: "Anker",
     specs: "3 Ports | Compact Design | Fast Charging",
     price: "$55",
-    image: "/gan-charger.jpg",
+    image: "/ankergan.png",
     link: "/products/gan-charger",
   },
   {
@@ -124,7 +124,7 @@ export default function Accessories() {
             </span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-            Mobile <span className="text-accent">Accessories</span>
+            <span className="text-foreground">Accessories</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Premium accessories to enhance and protect your devices

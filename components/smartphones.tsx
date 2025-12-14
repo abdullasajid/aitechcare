@@ -109,10 +109,10 @@ export default function Smartphones() {
             </span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-            AI-Powered <span className="text-accent">Phones</span>
+            AI-Powered <span className="text-accent">Cellular Devices</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Experience premium performance with AI-enhanced flagship smartphones
+            Experience premium performance with AI-enhanced flagship cellular devices
           </p>
         </div>
 

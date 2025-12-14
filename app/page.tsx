@@ -15,9 +15,9 @@ export default function Home() {
       <Navbar />
       <Hero />
       <AIGadgets />
+      <AIWearables />
       <AIProducts />
       <Smartphones />
-      <AIWearables />
       <Accessories />
       <RepairLab />
       <Footer />

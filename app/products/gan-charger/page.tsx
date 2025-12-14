@@ -10,7 +10,7 @@ import Footer from "@/components/footer";
 export default function GaNChargerPage() {
   const [selectedImage, setSelectedImage] = useState(0);
 
-  const images = ["/gan-charger.jpg"];
+  const images = ["/ankergan.png"];
 
   const features = [
     "65W total power output",

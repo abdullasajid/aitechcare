@@ -6,12 +6,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
-                <span className="text-accent-foreground font-bold text-sm">
-                  AT
-                </span>
-              </div>
-              <span className="font-bold text-lg text-foreground">AITech</span>
+              <img src="/Asset 7.svg" alt="AITech Logo" className="h-8" />
             </div>
             <p className="text-sm text-muted-foreground">
               Revolutionizing technology with AI-powered electronics and smart
@@ -25,7 +20,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
                 <a href="/#ai-gadgets" className="hover:text-accent transition">
-                  AI Gadgets
+                  AI Devices
                 </a>
               </li>
               <li>
@@ -41,7 +36,7 @@ export default function Footer() {
                   href="/#smartphones"
                   className="hover:text-accent transition"
                 >
-                  Smartphones
+                  Cellular Devices
                 </a>
               </li>
               <li>

@@ -10,7 +10,7 @@ import Footer from "@/components/footer";
 export default function AnkerPowerCorePage() {
   const [selectedImage, setSelectedImage] = useState(0);
 
-  const images = ["/anker-powerbank.jpg"];
+  const images = ["/ankerpowercore.png"];
 
   const features = [
     "20,000mAh high capacity for multiple charges",
