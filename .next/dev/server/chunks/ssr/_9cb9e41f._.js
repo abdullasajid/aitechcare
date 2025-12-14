@@ -49,7 +49,7 @@ function Navbar() {
                                     children: "AITech"
                                 }, void 0, false, {
                                     fileName: "[project]/components/navbar.tsx",
-                                    lineNumber: 18,
+                                    lineNumber: 20,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -62,12 +62,21 @@ function Navbar() {
                             className: "hidden md:flex gap-8 items-center",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                    href: "/#ai-gadgets",
+                                    className: "text-muted-foreground hover:text-accent transition",
+                                    children: "AI Gadgets"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/navbar.tsx",
+                                    lineNumber: 25,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                     href: "/#ai-products",
                                     className: "text-muted-foreground hover:text-accent transition",
                                     children: "Smart Home"
                                 }, void 0, false, {
                                     fileName: "[project]/components/navbar.tsx",
-                                    lineNumber: 23,
+                                    lineNumber: 31,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -76,7 +85,7 @@ function Navbar() {
                                     children: "Smartphones"
                                 }, void 0, false, {
                                     fileName: "[project]/components/navbar.tsx",
-                                    lineNumber: 26,
+                                    lineNumber: 37,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -85,16 +94,16 @@ function Navbar() {
                                     children: "Wearables"
                                 }, void 0, false, {
                                     fileName: "[project]/components/navbar.tsx",
-                                    lineNumber: 29,
+                                    lineNumber: 43,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                    href: "/#ai-accessories",
+                                    href: "/#accessories",
                                     className: "text-muted-foreground hover:text-accent transition",
                                     children: "Accessories"
                                 }, void 0, false, {
                                     fileName: "[project]/components/navbar.tsx",
-                                    lineNumber: 32,
+                                    lineNumber: 49,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -103,22 +112,22 @@ function Navbar() {
                                     children: "About"
                                 }, void 0, false, {
                                     fileName: "[project]/components/navbar.tsx",
-                                    lineNumber: 35,
+                                    lineNumber: 55,
                                     columnNumber: 13
                                 }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                    href: "#",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                    href: "/contact",
                                     className: "text-muted-foreground hover:text-accent transition",
                                     children: "Contact"
                                 }, void 0, false, {
                                     fileName: "[project]/components/navbar.tsx",
-                                    lineNumber: 38,
+                                    lineNumber: 61,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/navbar.tsx",
-                            lineNumber: 22,
+                            lineNumber: 24,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -128,18 +137,18 @@ function Navbar() {
                                 className: "w-6 h-6"
                             }, void 0, false, {
                                 fileName: "[project]/components/navbar.tsx",
-                                lineNumber: 45,
+                                lineNumber: 71,
                                 columnNumber: 23
                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
                                 className: "w-6 h-6"
                             }, void 0, false, {
                                 fileName: "[project]/components/navbar.tsx",
-                                lineNumber: 45,
+                                lineNumber: 71,
                                 columnNumber: 51
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/navbar.tsx",
-                            lineNumber: 44,
+                            lineNumber: 70,
                             columnNumber: 11
                         }, this)
                     ]
@@ -152,12 +161,21 @@ function Navbar() {
                     className: "md:hidden pb-4 space-y-3",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                            href: "/#ai-gadgets",
+                            className: "block text-muted-foreground hover:text-accent transition",
+                            children: "AI Gadgets"
+                        }, void 0, false, {
+                            fileName: "[project]/components/navbar.tsx",
+                            lineNumber: 78,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                             href: "/#ai-products",
                             className: "block text-muted-foreground hover:text-accent transition",
                             children: "Smart Home"
                         }, void 0, false, {
                             fileName: "[project]/components/navbar.tsx",
-                            lineNumber: 52,
+                            lineNumber: 84,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -166,7 +184,7 @@ function Navbar() {
                             children: "Smartphones"
                         }, void 0, false, {
                             fileName: "[project]/components/navbar.tsx",
-                            lineNumber: 55,
+                            lineNumber: 90,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -175,16 +193,16 @@ function Navbar() {
                             children: "Wearables"
                         }, void 0, false, {
                             fileName: "[project]/components/navbar.tsx",
-                            lineNumber: 58,
+                            lineNumber: 96,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                            href: "/#ai-accessories",
+                            href: "/#accessories",
                             className: "block text-muted-foreground hover:text-accent transition",
                             children: "Accessories"
                         }, void 0, false, {
                             fileName: "[project]/components/navbar.tsx",
-                            lineNumber: 61,
+                            lineNumber: 102,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -193,22 +211,22 @@ function Navbar() {
                             children: "About"
                         }, void 0, false, {
                             fileName: "[project]/components/navbar.tsx",
-                            lineNumber: 64,
+                            lineNumber: 108,
                             columnNumber: 13
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                            href: "#",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                            href: "/contact",
                             className: "block text-muted-foreground hover:text-accent transition",
                             children: "Contact"
                         }, void 0, false, {
                             fileName: "[project]/components/navbar.tsx",
-                            lineNumber: 67,
+                            lineNumber: 114,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/navbar.tsx",
-                    lineNumber: 51,
+                    lineNumber: 77,
                     columnNumber: 11
                 }, this)
             ]
@@ -235,7 +253,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 function Footer() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-        className: "bg-card border-t border-border py-12 px-4 sm:px-6 lg:px-8",
+        className: "bg-secondary border-t border-border py-12 px-4 sm:px-6 lg:px-8",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "max-w-7xl mx-auto",
             children: [
@@ -268,7 +286,7 @@ function Footer() {
                                             children: "AITech"
                                         }, void 0, false, {
                                             fileName: "[project]/components/footer.tsx",
-                                            lineNumber: 12,
+                                            lineNumber: 14,
                                             columnNumber: 15
                                         }, this)
                                     ]
@@ -282,7 +300,7 @@ function Footer() {
                                     children: "Revolutionizing technology with AI-powered electronics and smart solutions"
                                 }, void 0, false, {
                                     fileName: "[project]/components/footer.tsx",
-                                    lineNumber: 14,
+                                    lineNumber: 16,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -299,7 +317,7 @@ function Footer() {
                                     children: "Products"
                                 }, void 0, false, {
                                     fileName: "[project]/components/footer.tsx",
-                                    lineNumber: 21,
+                                    lineNumber: 24,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -307,17 +325,32 @@ function Footer() {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                href: "/#ai-gadgets",
+                                                className: "hover:text-accent transition",
+                                                children: "AI Gadgets"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/footer.tsx",
+                                                lineNumber: 27,
+                                                columnNumber: 17
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/footer.tsx",
+                                            lineNumber: 26,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                 href: "/#ai-products",
                                                 className: "hover:text-accent transition",
                                                 children: "Smart Home"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/footer.tsx",
-                                                lineNumber: 24,
+                                                lineNumber: 32,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/footer.tsx",
-                                            lineNumber: 23,
+                                            lineNumber: 31,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -327,12 +360,12 @@ function Footer() {
                                                 children: "Smartphones"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/footer.tsx",
-                                                lineNumber: 29,
+                                                lineNumber: 40,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/footer.tsx",
-                                            lineNumber: 28,
+                                            lineNumber: 39,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -342,39 +375,39 @@ function Footer() {
                                                 children: "Wearables"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/footer.tsx",
-                                                lineNumber: 34,
+                                                lineNumber: 48,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/footer.tsx",
-                                            lineNumber: 33,
+                                            lineNumber: 47,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                href: "/#ai-accessories",
+                                                href: "/#accessories",
                                                 className: "hover:text-accent transition",
                                                 children: "Accessories"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/footer.tsx",
-                                                lineNumber: 39,
+                                                lineNumber: 56,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/footer.tsx",
-                                            lineNumber: 38,
+                                            lineNumber: 55,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/footer.tsx",
-                                    lineNumber: 22,
+                                    lineNumber: 25,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/footer.tsx",
-                            lineNumber: 20,
+                            lineNumber: 23,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -385,35 +418,52 @@ function Footer() {
                                     children: "Company"
                                 }, void 0, false, {
                                     fileName: "[project]/components/footer.tsx",
-                                    lineNumber: 48,
+                                    lineNumber: 68,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                                     className: "space-y-2 text-sm text-muted-foreground",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: "/about",
-                                            className: "hover:text-accent transition",
-                                            children: "About"
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                href: "/about",
+                                                className: "hover:text-accent transition",
+                                                children: "About"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/footer.tsx",
+                                                lineNumber: 71,
+                                                columnNumber: 17
+                                            }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/footer.tsx",
-                                            lineNumber: 51,
-                                            columnNumber: 17
+                                            lineNumber: 70,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                href: "/contact",
+                                                className: "hover:text-accent transition",
+                                                children: "Contact"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/footer.tsx",
+                                                lineNumber: 76,
+                                                columnNumber: 17
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/footer.tsx",
+                                            lineNumber: 75,
+                                            columnNumber: 15
                                         }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/footer.tsx",
-                                        lineNumber: 50,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/components/footer.tsx",
-                                    lineNumber: 49,
+                                    lineNumber: 69,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/footer.tsx",
-                            lineNumber: 47,
+                            lineNumber: 67,
                             columnNumber: 11
                         }, this)
                     ]
@@ -432,7 +482,7 @@ function Footer() {
                                 children: "© 2025 AITech. All rights reserved."
                             }, void 0, false, {
                                 fileName: "[project]/components/footer.tsx",
-                                lineNumber: 61,
+                                lineNumber: 86,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -444,7 +494,7 @@ function Footer() {
                                         children: "Terms"
                                     }, void 0, false, {
                                         fileName: "[project]/components/footer.tsx",
-                                        lineNumber: 63,
+                                        lineNumber: 90,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -453,7 +503,7 @@ function Footer() {
                                         children: "Privacy"
                                     }, void 0, false, {
                                         fileName: "[project]/components/footer.tsx",
-                                        lineNumber: 66,
+                                        lineNumber: 93,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -462,24 +512,24 @@ function Footer() {
                                         children: "Cookies"
                                     }, void 0, false, {
                                         fileName: "[project]/components/footer.tsx",
-                                        lineNumber: 69,
+                                        lineNumber: 96,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/footer.tsx",
-                                lineNumber: 62,
+                                lineNumber: 89,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/footer.tsx",
-                        lineNumber: 60,
+                        lineNumber: 85,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/footer.tsx",
-                    lineNumber: 59,
+                    lineNumber: 84,
                     columnNumber: 9
                 }, this)
             ]
@@ -521,16 +571,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$footer$2e$tsx_
 function RabbitR1() {
     const [selectedImage, setSelectedImage] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(0);
     const images = [
-        "/rabbit-r1.jpg",
-        "/rabbit-r1-2.jpg",
-        "/rabbit-r1-3.jpg",
-        "/rabbit-r1-4.jpg"
+        "/r1.webp",
+        "/r1-1.webp",
+        "/r1-2.webp",
+        "/r1-3.webp"
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$navbar$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                lineNumber: 22,
+                lineNumber: 17,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -546,14 +596,14 @@ function RabbitR1() {
                                     className: "w-4 h-4"
                                 }, void 0, false, {
                                     fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                    lineNumber: 29,
+                                    lineNumber: 24,
                                     columnNumber: 13
                                 }, this),
                                 "Back to Home"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                            lineNumber: 25,
+                            lineNumber: 20,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -571,12 +621,12 @@ function RabbitR1() {
                                                 className: "object-contain p-8"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                lineNumber: 36,
+                                                lineNumber: 31,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                            lineNumber: 35,
+                                            lineNumber: 30,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -591,23 +641,23 @@ function RabbitR1() {
                                                         className: "object-contain p-2"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                        lineNumber: 54,
+                                                        lineNumber: 49,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, index, false, {
                                                     fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                    lineNumber: 45,
+                                                    lineNumber: 40,
                                                     columnNumber: 19
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                            lineNumber: 43,
+                                            lineNumber: 38,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                    lineNumber: 34,
+                                    lineNumber: 29,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -620,30 +670,30 @@ function RabbitR1() {
                                                     children: "Rabbit"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                    lineNumber: 68,
-                                                    columnNumber: 15
+                                                    lineNumber: 63,
+                                                    columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                                     className: "text-4xl font-bold text-foreground mb-4",
                                                     children: "Rabbit R1"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                    lineNumber: 69,
-                                                    columnNumber: 15
+                                                    lineNumber: 64,
+                                                    columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     className: "text-lg text-muted-foreground",
                                                     children: "Compact AI assistant device with touchscreen and voice commands for everyday tasks"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                    lineNumber: 72,
-                                                    columnNumber: 15
+                                                    lineNumber: 67,
+                                                    columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                            lineNumber: 67,
-                                            columnNumber: 13
+                                            lineNumber: 62,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "border-t border-border pt-6",
@@ -653,7 +703,7 @@ function RabbitR1() {
                                                     children: "Key Features"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                    lineNumber: 78,
+                                                    lineNumber: 74,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -666,7 +716,7 @@ function RabbitR1() {
                                                                     className: "w-5 h-5 text-accent mt-0.5 flex-shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                                    lineNumber: 83,
+                                                                    lineNumber: 79,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -674,13 +724,13 @@ function RabbitR1() {
                                                                     children: '2.88" touchscreen display with intuitive interface'
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                                    lineNumber: 84,
+                                                                    lineNumber: 80,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                            lineNumber: 82,
+                                                            lineNumber: 78,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -690,7 +740,7 @@ function RabbitR1() {
                                                                     className: "w-5 h-5 text-accent mt-0.5 flex-shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                                    lineNumber: 87,
+                                                                    lineNumber: 85,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -698,13 +748,13 @@ function RabbitR1() {
                                                                     children: "Large Action Model (LAM) for understanding complex tasks"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                                    lineNumber: 88,
+                                                                    lineNumber: 86,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                            lineNumber: 86,
+                                                            lineNumber: 84,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -738,7 +788,7 @@ function RabbitR1() {
                                                                     className: "w-5 h-5 text-accent mt-0.5 flex-shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                                    lineNumber: 95,
+                                                                    lineNumber: 97,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -746,37 +796,13 @@ function RabbitR1() {
                                                                     children: "360° rotating camera for versatile capture"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                                    lineNumber: 96,
+                                                                    lineNumber: 98,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                            lineNumber: 94,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "flex items-start gap-3",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
-                                                                    className: "w-5 h-5 text-accent mt-0.5 flex-shrink-0"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                                    lineNumber: 99,
-                                                                    columnNumber: 21
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                    className: "text-muted-foreground",
-                                                                    children: "4G LTE connectivity with built-in SIM"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                                    lineNumber: 100,
-                                                                    columnNumber: 21
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                            lineNumber: 98,
+                                                            lineNumber: 96,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -791,7 +817,7 @@ function RabbitR1() {
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                     className: "text-muted-foreground",
-                                                                    children: "Compact pocket-sized design with scroll wheel navigation"
+                                                                    children: "4G LTE connectivity with built-in SIM"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/products/rabbit-r1/page.tsx",
                                                                     lineNumber: 104,
@@ -802,17 +828,41 @@ function RabbitR1() {
                                                             fileName: "[project]/app/products/rabbit-r1/page.tsx",
                                                             lineNumber: 102,
                                                             columnNumber: 19
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                            className: "flex items-start gap-3",
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
+                                                                    className: "w-5 h-5 text-accent mt-0.5 flex-shrink-0"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/app/products/rabbit-r1/page.tsx",
+                                                                    lineNumber: 109,
+                                                                    columnNumber: 21
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                    className: "text-muted-foreground",
+                                                                    children: "Compact pocket-sized design with scroll wheel navigation"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/app/products/rabbit-r1/page.tsx",
+                                                                    lineNumber: 110,
+                                                                    columnNumber: 21
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/app/products/rabbit-r1/page.tsx",
+                                                            lineNumber: 108,
+                                                            columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                    lineNumber: 81,
+                                                    lineNumber: 77,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                            lineNumber: 77,
+                                            lineNumber: 73,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -823,7 +873,7 @@ function RabbitR1() {
                                                     children: "Specifications"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                    lineNumber: 110,
+                                                    lineNumber: 118,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -835,14 +885,14 @@ function RabbitR1() {
                                                                     children: "Display:"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                                    lineNumber: 114,
-                                                                    columnNumber: 22
+                                                                    lineNumber: 123,
+                                                                    columnNumber: 21
                                                                 }, this),
                                                                 ' 2.88" touchscreen'
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                            lineNumber: 114,
+                                                            lineNumber: 122,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -851,14 +901,14 @@ function RabbitR1() {
                                                                     children: "Battery Life:"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                                    lineNumber: 115,
-                                                                    columnNumber: 22
+                                                                    lineNumber: 126,
+                                                                    columnNumber: 21
                                                                 }, this),
                                                                 " All day use"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                            lineNumber: 115,
+                                                            lineNumber: 125,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -867,14 +917,14 @@ function RabbitR1() {
                                                                     children: "Camera:"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                                    lineNumber: 116,
-                                                                    columnNumber: 22
+                                                                    lineNumber: 129,
+                                                                    columnNumber: 21
                                                                 }, this),
                                                                 " 8MP 360° rotating"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                            lineNumber: 116,
+                                                            lineNumber: 128,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -883,14 +933,14 @@ function RabbitR1() {
                                                                     children: "Storage:"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                                    lineNumber: 117,
-                                                                    columnNumber: 22
+                                                                    lineNumber: 132,
+                                                                    columnNumber: 21
                                                                 }, this),
                                                                 " 128GB internal"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                            lineNumber: 117,
+                                                            lineNumber: 131,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -899,14 +949,14 @@ function RabbitR1() {
                                                                     children: "Connectivity:"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                                    lineNumber: 118,
-                                                                    columnNumber: 22
+                                                                    lineNumber: 135,
+                                                                    columnNumber: 21
                                                                 }, this),
                                                                 " 4G LTE, Wi-Fi, Bluetooth"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                            lineNumber: 118,
+                                                            lineNumber: 134,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -915,54 +965,54 @@ function RabbitR1() {
                                                                     children: "Weight:"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                                    lineNumber: 119,
-                                                                    columnNumber: 22
+                                                                    lineNumber: 138,
+                                                                    columnNumber: 21
                                                                 }, this),
                                                                 " 115g"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                            lineNumber: 119,
+                                                            lineNumber: 137,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                                    lineNumber: 113,
+                                                    lineNumber: 121,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                            lineNumber: 109,
+                                            lineNumber: 117,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                                    lineNumber: 66,
-                                    columnNumber: 11
+                                    lineNumber: 61,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                            lineNumber: 32,
+                            lineNumber: 27,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                    lineNumber: 24,
+                    lineNumber: 19,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                lineNumber: 23,
+                lineNumber: 18,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$footer$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/products/rabbit-r1/page.tsx",
-                lineNumber: 126,
+                lineNumber: 146,
                 columnNumber: 7
             }, this)
         ]

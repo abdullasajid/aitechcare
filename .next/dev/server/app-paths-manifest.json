@@ -1,13 +1,6 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/about/page": "app/about/page.js",
-  "/contact/page": "app/contact/page.js",
   "/page": "app/page.js",
-  "/products/airpods-pro-3/page": "app/products/airpods-pro-3/page.js",
-  "/products/emo-living-ai-robot/page": "app/products/emo-living-ai-robot/page.js",
-  "/products/galaxy-buds-3-ultra/page": "app/products/galaxy-buds-3-ultra/page.js",
-  "/products/galaxy-ring/page": "app/products/galaxy-ring/page.js",
-  "/products/humane-ai-pin/page": "app/products/humane-ai-pin/page.js",
-  "/products/oura-ring-gen-4/page": "app/products/oura-ring-gen-4/page.js",
-  "/products/roomba-j9/page": "app/products/roomba-j9/page.js"
+  "/products/plaud-note/page": "app/products/plaud-note/page.js",
+  "/products/rabbit-r1/page": "app/products/rabbit-r1/page.js"
 }
