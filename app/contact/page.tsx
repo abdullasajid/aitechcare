@@ -45,10 +45,10 @@ export default function ContactPage() {
                       Email
                     </h3>
                     <a
-                      href="mailto:support@aitechcare.ca"
+                      href="mailto:management@aitechcare.ca"
                       className="text-accent hover:underline"
                     >
-                      support@aitechcare.ca
+                      management@aitechcare.ca
                     </a>
                   </div>
                 </div>

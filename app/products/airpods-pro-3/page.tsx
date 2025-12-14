@@ -1,46 +1,49 @@
-"use client";
+"use client"
 
-import { useState } from "react";
-import Image from "next/image";
-import Link from "next/link";
-import { ArrowLeft, Check } from "lucide-react";
-import Navbar from "@/components/navbar";
-import Footer from "@/components/footer";
+import Navbar from "@/components/navbar"
+import Footer from "@/components/footer"
+import { ArrowLeft, Check, Star } from "lucide-react"
+import Link from "next/link"
+import Image from "next/image"
+import { useState } from "react"
 
 export default function AirPodsPro3() {
-  const [selectedImage, setSelectedImage] = useState(0);
-
+  const [selectedImage, setSelectedImage] = useState(0)
+  
   const images = [
     "/airpodspro3.png",
     "/airpodspro3.png",
     "/airpodspro3.png",
     "/airpodspro3.png",
-  ];
+  ]
 
   return (
-    <>
+    <main className="min-h-screen bg-background">
       <Navbar />
-      <div className="min-h-screen bg-background pt-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <Link
-            href="/"
-            className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition mb-8"
-          >
+      
+      <div className="pt-24 pb-20 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <Link href="/#ai-products" className="inline-flex items-center gap-2 text-accent hover:underline mb-8">
             <ArrowLeft className="w-4 h-4" />
-            Back to Home
+            Back to Products
           </Link>
-          <div className="grid md:grid-cols-2 gap-12">
-            {/* Image Gallery */}
+
+          <div className="grid md:grid-cols-2 gap-12 items-start">
+            {/* Product Images */}
             <div className="space-y-4">
-              <div className="relative aspect-square rounded-xl overflow-hidden bg-gradient-to-br from-accent/10 to-primary/10">
+              {/* Main Image */}
+              <div className="relative bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-2xl border border-border aspect-square overflow-hidden">
                 <Image
                   src={images[selectedImage]}
                   alt="AirPods Pro 3"
                   fill
                   className="object-contain p-8"
+                  priority
                 />
               </div>
-              <div className="grid grid-cols-4 gap-2">
+              
+              {/* Thumbnail Gallery */}
+              <div className="grid grid-cols-6 gap-2">
                 {images.map((image, index) => (
                   <button
                     key={index}
@@ -55,7 +58,7 @@ export default function AirPodsPro3() {
                       src={image}
                       alt={`AirPods Pro 3 view ${index + 1}`}
                       fill
-                      className="object-contain p-2"
+                      className="object-contain p-1"
                     />
                   </button>
                 ))}
@@ -65,93 +68,48 @@ export default function AirPodsPro3() {
             {/* Product Details */}
             <div className="space-y-6">
               <div>
-                <h1 className="text-4xl font-bold text-foreground mb-4">
-                  AirPods Pro 3
-                </h1>
-                <p className="text-muted-foreground text-lg">
-                  Next-generation wireless earbuds with advanced AI noise
-                  cancellation and health tracking
+                <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">AirPods Pro 3</h1>
+              </div>
+
+              <div className="space-y-4">
+                <h2 className="text-2xl font-bold text-foreground">Product Description</h2>
+                <p className="text-muted-foreground leading-relaxed">
+                  Experience the next generation of wireless audio with AirPods Pro 3. These revolutionary 
+                  earbuds combine advanced AI noise cancellation with health tracking capabilities, delivering 
+                  an unparalleled listening experience.
+                </p>
+                <p className="text-muted-foreground leading-relaxed">
+                  Powered by the new H3 Ultra chip, AirPods Pro 3 adapts to your environment and preferences, 
+                  providing personalized audio profiles and seamless integration with your Apple ecosystem.
                 </p>
               </div>
 
-              <div className="border-t border-border pt-6">
-                <h2 className="text-2xl font-semibold text-foreground mb-4">
-                  Key Features
-                </h2>
+              <div className="space-y-4">
+                <h3 className="text-xl font-bold text-foreground">Key Features</h3>
                 <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">
-                      AI-powered Adaptive Noise Cancellation with personalized
-                      profiles
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">
-                      Advanced health sensors for heart rate and temperature
-                      monitoring
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">
-                      Enhanced Siri with contextual AI understanding
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">
-                      Spatial Audio with dynamic head tracking
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">
-                      Up to 36 hours total battery life with MagSafe charging
-                      case
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">
-                      USB-C charging and improved water resistance (IP55)
-                    </span>
-                  </li>
+                  {[
+                    "AI-powered Adaptive Noise Cancellation with personalized profiles",
+                    "Advanced health sensors for heart rate and temperature monitoring",
+                    "Enhanced Siri with contextual AI understanding",
+                    "Spatial Audio with dynamic head tracking",
+                    "Up to 36 hours total battery life with MagSafe charging case",
+                    "USB-C charging and improved water resistance (IP55)",
+                    "H3 Ultra chip for superior performance",
+                    "Bluetooth 5.4 connectivity"
+                  ].map((feature, i) => (
+                    <li key={i} className="flex items-start gap-3">
+                      <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
+                      <span className="text-muted-foreground">{feature}</span>
+                    </li>
+                  ))}
                 </ul>
-              </div>
-
-              <div className="border-t border-border pt-6">
-                <h2 className="text-2xl font-semibold text-foreground mb-4">
-                  Specifications
-                </h2>
-                <div className="space-y-2 text-muted-foreground">
-                  <p>
-                    <strong>Chip:</strong> H3 Ultra
-                  </p>
-                  <p>
-                    <strong>Battery Life:</strong> 6h (ANC on) / 36h total
-                  </p>
-                  <p>
-                    <strong>Connectivity:</strong> Bluetooth 5.4
-                  </p>
-                  <p>
-                    <strong>Water Resistance:</strong> IP55
-                  </p>
-                  <p>
-                    <strong>Sensors:</strong> Heart rate, Temperature,
-                    Accelerometer
-                  </p>
-                  <p>
-                    <strong>Charging:</strong> USB-C, MagSafe, Qi wireless
-                  </p>
-                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <Footer />
-    </>
-  );
+    </main>
+  )
 }

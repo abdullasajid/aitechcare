@@ -34,6 +34,22 @@ const gadgets = [
     image: "/plaud.webp",
     link: "/products/plaud-note",
   },
+  {
+    name: "Plaud NotePin",
+    brand: "Plaud",
+    description:
+      "Wearable AI Voice Recorder | Pin-On Design | Advanced Transcription",
+    image: "/plaudpin-1.webp",
+    link: "/products/plaud-notepin",
+  },
+  {
+    name: "Limitless Pendant",
+    brand: "Limitless",
+    description:
+      "AI Wearable | Real-Time Transcription | Automated Meeting Notes",
+    image: "/limitless.png",
+    link: "/products/limitless-pendant",
+  },
 ];
 
 export default function AIGadgets() {

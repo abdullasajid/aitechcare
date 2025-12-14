@@ -7,24 +7,24 @@ import Link from "next/link"
 import Image from "next/image"
 import { useState } from "react"
 
-export default function iPhoneAirPage() {
+export default function LimitlessPendant() {
   const [selectedImage, setSelectedImage] = useState(0)
   
   const images = [
-    "/iphoneair-1.png",
-    "/iphoneair-2.png",
-    "/iphoneair-3.png",
-    "/iphoneair-4.png",
-    "/iphoneair-5.png",
+    "/limitless.png",
+    "/limitless-1.webp",
+    "/limitless-2.webp",
+    "/limitless-3.webp",
+    "/limitless-4.webp",
   ]
-
+  
   return (
     <main className="min-h-screen bg-background">
       <Navbar />
       
       <div className="pt-24 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <Link href="/#smartphones" className="inline-flex items-center gap-2 text-accent hover:underline mb-8">
+          <Link href="/#ai-gadgets" className="inline-flex items-center gap-2 text-accent hover:underline mb-8">
             <ArrowLeft className="w-4 h-4" />
             Back to Products
           </Link>
@@ -33,10 +33,10 @@ export default function iPhoneAirPage() {
             {/* Product Images */}
             <div className="space-y-4">
               {/* Main Image */}
-              <div className="relative bg-gradient-to-br from-slate-500/20 to-gray-500/20 rounded-2xl border border-border aspect-square overflow-hidden">
+              <div className="relative bg-gradient-to-br from-purple-500/20 to-indigo-500/20 rounded-2xl border border-border aspect-square overflow-hidden">
                 <Image
                   src={images[selectedImage]}
-                  alt="iPhone Air"
+                  alt="Limitless Pendant"
                   fill
                   className="object-contain p-8"
                   priority
@@ -57,7 +57,7 @@ export default function iPhoneAirPage() {
                   >
                     <Image
                       src={image}
-                      alt={`iPhone Air view ${index + 1}`}
+                      alt={`Limitless Pendant view ${index + 1}`}
                       fill
                       className="object-contain p-1"
                     />
@@ -69,20 +69,20 @@ export default function iPhoneAirPage() {
             {/* Product Details */}
             <div className="space-y-6">
               <div>
-                <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">iPhone Air</h1>
+                <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Limitless Pendant</h1>
               </div>
 
               <div className="space-y-4">
                 <h2 className="text-2xl font-bold text-foreground">Product Description</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  Impossibly thin. Incredibly powerful. The iPhone Air is Apple's thinnest smartphone 
-                  ever at just 5.5mm, delivering flagship performance in an ultra-portable design 
-                  with Apple Intelligence built-in.
+                  Limitless Pendant is the ultimate AI-powered wearable that captures and transcribes your conversations 
+                  in real-time. Designed for professionals, it automatically generates meeting summaries, action items, 
+                  and key insights, ensuring you never miss important details.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  Experience the perfect blend of form and function with aerospace-grade aluminum construction, 
-                  all-day battery life, and the advanced A19 chip. The iPhone Air redefines what a smartphone 
-                  can be, combining cutting-edge technology with an impossibly sleek design.
+                  With advanced AI processing and seamless integration with your productivity tools, the Limitless Pendant 
+                  transforms how you work. Simply wear it during meetings, calls, or brainstorming sessions, and let AI 
+                  handle the note-taking while you stay focused on the conversation.
                 </p>
               </div>
 
@@ -90,14 +90,14 @@ export default function iPhoneAirPage() {
                 <h3 className="text-xl font-bold text-foreground">Key Features</h3>
                 <ul className="space-y-3">
                   {[
-                    "6.6-inch Super Retina XDR display with ProMotion",
-                    "A19 chip with advanced Neural Engine",
-                    "Ultra-thin 5.5mm design - thinnest iPhone ever",
-                    "48MP Fusion camera with computational photography",
-                    "Apple Intelligence built-in",
-                    "Aerospace-grade aluminum unibody",
-                    "All-day battery life with MagSafe charging",
-                    "5G and Wi-Fi 7 connectivity"
+                    "Real-time AI transcription with 95%+ accuracy",
+                    "Automatic meeting summaries and action items",
+                    "Multi-language support for global teams",
+                    "Privacy-first design with encrypted storage",
+                    "Integration with Zoom, Google Meet, and Teams",
+                    "All-day battery life (up to 100 hours)",
+                    "Offline recording with cloud sync",
+                    "Lightweight wearable design (13g)"
                   ].map((feature, i) => (
                     <li key={i} className="flex items-start gap-3">
                       <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />

@@ -1,41 +1,47 @@
-"use client";
+"use client"
 
-import { useState } from "react";
-import Image from "next/image";
-import Link from "next/link";
-import { ArrowLeft, Check } from "lucide-react";
-import Navbar from "@/components/navbar";
-import Footer from "@/components/footer";
+import Navbar from "@/components/navbar"
+import Footer from "@/components/footer"
+import { ArrowLeft, Check } from "lucide-react"
+import Link from "next/link"
+import Image from "next/image"
+import { useState } from "react"
 
 export default function OuraRingGen4() {
-  const [selectedImage, setSelectedImage] = useState(0);
+  const [selectedImage, setSelectedImage] = useState(0)
 
-  const images = ["/ouraring-1.png", "/ouraring-2.png"];
+  const images = [
+    "/ouraring-1.png",
+    "/ouraring-2.png",
+  ]
 
   return (
-    <>
+    <main className="min-h-screen bg-background">
       <Navbar />
-      <div className="min-h-screen bg-background pt-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <Link
-            href="/"
-            className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition mb-8"
-          >
+      
+      <div className="pt-24 pb-20 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <Link href="/#ai-wearables" className="inline-flex items-center gap-2 text-accent hover:underline mb-8">
             <ArrowLeft className="w-4 h-4" />
-            Back to Home
+            Back to Products
           </Link>
-          <div className="grid md:grid-cols-2 gap-12">
-            {/* Image Gallery */}
+
+          <div className="grid md:grid-cols-2 gap-12 items-start">
+            {/* Product Images */}
             <div className="space-y-4">
-              <div className="relative aspect-square rounded-xl overflow-hidden bg-gradient-to-br from-accent/20 to-primary/20">
+              {/* Main Image */}
+              <div className="relative bg-gradient-to-br from-accent/20 to-primary/20 rounded-2xl border border-border aspect-square overflow-hidden">
                 <Image
                   src={images[selectedImage]}
                   alt="Oura Ring Gen 4"
                   fill
                   className="object-contain p-8"
+                  priority
                 />
               </div>
-              <div className="grid grid-cols-4 gap-2">
+              
+              {/* Thumbnail Gallery */}
+              <div className="grid grid-cols-6 gap-2">
                 {images.map((image, index) => (
                   <button
                     key={index}
@@ -50,102 +56,59 @@ export default function OuraRingGen4() {
                       src={image}
                       alt={`Oura Ring Gen 4 view ${index + 1}`}
                       fill
-                      className="object-contain p-2"
+                      className="object-contain p-1"
                     />
                   </button>
                 ))}
               </div>
             </div>
 
-            {/* Product Info */}
+            {/* Product Details */}
             <div className="space-y-6">
               <div>
-                <p className="text-accent font-semibold mb-2">Oura</p>
-                <h1 className="text-4xl font-bold text-foreground mb-4">
-                  Oura Ring Gen 4
-                </h1>
-                <p className="text-lg text-muted-foreground">
-                  Advanced AI-powered health tracking ring with comprehensive
-                  sleep and fitness analysis
+                <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Oura Ring Gen 4</h1>
+              </div>
+
+              <div className="space-y-4">
+                <h2 className="text-2xl font-bold text-foreground">Product Description</h2>
+                <p className="text-muted-foreground leading-relaxed">
+                  Experience advanced AI-powered health tracking with the Oura Ring Gen 4. This smart ring 
+                  delivers comprehensive sleep and fitness analysis in a sleek, comfortable design that you 
+                  can wear 24/7.
+                </p>
+                <p className="text-muted-foreground leading-relaxed">
+                  With personalized insights and automatic workout detection, the Oura Ring adapts to your 
+                  lifestyle. The lightweight titanium design ensures comfort while delivering up to 8 days 
+                  of battery life.
                 </p>
               </div>
 
-              <div className="border-t border-border pt-6">
-                <h2 className="text-2xl font-semibold text-foreground mb-4">
-                  Key Features
-                </h2>
+              <div className="space-y-4">
+                <h3 className="text-xl font-bold text-foreground">Key Features</h3>
                 <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">
-                      AI-powered sleep staging with personalized insights
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">
-                      Advanced heart rate variability and cardiovascular
-                      monitoring
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">
-                      Body temperature tracking with fever detection
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">
-                      Activity and workout tracking with automatic detection
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">
-                      Up to 8 days battery life on a single charge
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">
-                      Lightweight titanium design with scratch-resistant coating
-                    </span>
-                  </li>
+                  {[
+                    "AI-powered sleep staging with personalized insights",
+                    "Advanced heart rate variability monitoring",
+                    "Body temperature tracking with fever detection",
+                    "Activity and workout tracking with auto-detection",
+                    "Up to 8 days battery life on single charge",
+                    "Lightweight titanium with scratch-resistant coating",
+                    "100m water resistance (10 ATM)",
+                    "Bluetooth 5.4 LE connectivity"
+                  ].map((feature, i) => (
+                    <li key={i} className="flex items-start gap-3">
+                      <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
+                      <span className="text-muted-foreground">{feature}</span>
+                    </li>
+                  ))}
                 </ul>
-              </div>
-
-              <div className="border-t border-border pt-6">
-                <h2 className="text-2xl font-semibold text-foreground mb-4">
-                  Specifications
-                </h2>
-                <div className="space-y-2 text-muted-foreground">
-                  <p>
-                    <strong>Material:</strong> Titanium with PVD coating
-                  </p>
-                  <p>
-                    <strong>Battery Life:</strong> Up to 8 days
-                  </p>
-                  <p>
-                    <strong>Water Resistance:</strong> 100m (10 ATM)
-                  </p>
-                  <p>
-                    <strong>Weight:</strong> 3-6g (size dependent)
-                  </p>
-                  <p>
-                    <strong>Sensors:</strong> PPG, Temperature, Accelerometer,
-                    Gyroscope
-                  </p>
-                  <p>
-                    <strong>Connectivity:</strong> Bluetooth 5.4 LE
-                  </p>
-                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <Footer />
-    </>
-  );
+    </main>
+  )
 }

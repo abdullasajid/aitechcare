@@ -1,54 +1,44 @@
-"use client";
+"use client"
 
-import { useState } from "react";
-import Image from "next/image";
-import Link from "next/link";
-import { ArrowLeft, Check } from "lucide-react";
-import Navbar from "@/components/navbar";
-import Footer from "@/components/footer";
+import Navbar from "@/components/navbar"
+import Footer from "@/components/footer"
+import { ArrowLeft, Check } from "lucide-react"
+import Link from "next/link"
+import Image from "next/image"
+import { useState } from "react"
 
 export default function MagSafeWalletPage() {
-  const [selectedImage, setSelectedImage] = useState(0);
-
-  const images = ["/magwallet.png", "/magwallet-1.jpg"];
-
-  const features = [
-    "Strong built-in magnets",
-    "Premium European leather",
-    "Holds up to 3 cards securely",
-    "RFID shielding for card protection",
-    "Find My support - track with iPhone",
-    "Wireless charging compatible",
-    "Shielded card slots protect data",
-    "Easy card access with thumb notch",
-    "Slim profile adds minimal bulk",
-    "Available in multiple colors",
-  ];
+  const [selectedImage, setSelectedImage] = useState(0)
+  
+  const images = ["/magwallet.png", "/magwallet-1.jpg"]
 
   return (
-    <>
+    <main className="min-h-screen bg-background">
       <Navbar />
-      <div className="min-h-screen bg-background pt-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <Link
-            href="/"
-            className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition mb-8"
-          >
+      
+      <div className="pt-24 pb-20 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <Link href="/#accessories" className="inline-flex items-center gap-2 text-accent hover:underline mb-8">
             <ArrowLeft className="w-4 h-4" />
-            Back to Home
+            Back to Products
           </Link>
 
-          <div className="grid md:grid-cols-2 gap-12">
+          <div className="grid md:grid-cols-2 gap-12 items-start">
+            {/* Product Images */}
             <div className="space-y-4">
-              <div className="relative aspect-square rounded-xl overflow-hidden bg-gradient-to-br from-amber-500/10 to-orange-500/10">
+              {/* Main Image */}
+              <div className="relative bg-gradient-to-br from-amber-500/20 to-orange-500/20 rounded-2xl border border-border aspect-square overflow-hidden">
                 <Image
                   src={images[selectedImage]}
                   alt="MagSafe Wallet"
                   fill
                   className="object-contain p-8"
+                  priority
                 />
               </div>
-              <div className="grid grid-cols-2 gap-4">
+              
+              {/* Thumbnail Gallery */}
+              <div className="grid grid-cols-6 gap-2">
                 {images.map((image, index) => (
                   <button
                     key={index}
@@ -63,80 +53,58 @@ export default function MagSafeWalletPage() {
                       src={image}
                       alt={`MagSafe Wallet view ${index + 1}`}
                       fill
-                      className="object-contain p-2"
+                      className="object-contain p-1"
                     />
                   </button>
                 ))}
               </div>
             </div>
 
+            {/* Product Details */}
             <div className="space-y-6">
               <div>
-                <p className="text-sm text-accent font-semibold mb-2">Apple</p>
-                <h1 className="text-4xl font-bold text-foreground mb-4">
-                  MagSafe Wallet
-                </h1>
+                <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">MagSafe Wallet</h1>
+              </div>
+
+              <div className="space-y-4">
+                <h2 className="text-2xl font-bold text-foreground">Product Description</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  Keep your cards close with the MagSafe Wallet. It snaps
-                  magnetically to your iPhone and supports Find My, so you can
-                  receive notifications if you leave it behind.
+                  Keep your cards close with the MagSafe Wallet. It snaps magnetically to your iPhone 
+                  and supports Find My, so you can receive notifications if you leave it behind.
+                </p>
+                <p className="text-muted-foreground leading-relaxed">
+                  Crafted from specially tanned and finished European leather, the MagSafe Wallet is both 
+                  luxurious and protective. The built-in magnets keep your cards secure while allowing for 
+                  easy one-handed access via the thumb notch.
                 </p>
               </div>
 
-              <div className="border-t border-border pt-6">
-                <h2 className="text-xl font-semibold text-foreground mb-4">
-                  Features
-                </h2>
+              <div className="space-y-4">
+                <h3 className="text-xl font-bold text-foreground">Key Features</h3>
                 <ul className="space-y-3">
-                  {features.map((feature, index) => (
-                    <li key={index} className="flex items-start gap-3">
-                      <Check className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
+                  {[
+                    "Strong built-in magnets",
+                    "Premium European leather",
+                    "Holds up to 3 cards securely",
+                    "RFID shielding for card protection",
+                    "Find My support - track with iPhone",
+                    "Wireless charging compatible",
+                    "Shielded card slots protect data",
+                    "Easy card access with thumb notch"
+                  ].map((feature, i) => (
+                    <li key={i} className="flex items-start gap-3">
+                      <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
                       <span className="text-muted-foreground">{feature}</span>
                     </li>
                   ))}
                 </ul>
               </div>
-
-              <div className="border-t border-border pt-6">
-                <h2 className="text-xl font-semibold text-foreground mb-4">
-                  Specifications
-                </h2>
-                <dl className="space-y-3">
-                  <div>
-                    <dt className="text-sm text-muted-foreground">Material</dt>
-                    <dd className="text-foreground font-medium">
-                      European Leather
-                    </dd>
-                  </div>
-                  <div>
-                    <dt className="text-sm text-muted-foreground">
-                      Card Capacity
-                    </dt>
-                    <dd className="text-foreground font-medium">
-                      Up to 3 cards
-                    </dd>
-                  </div>
-                  <div>
-                    <dt className="text-sm text-muted-foreground">Find My</dt>
-                    <dd className="text-foreground font-medium">
-                      Supported with notifications
-                    </dd>
-                  </div>
-                  <div>
-                    <dt className="text-sm text-muted-foreground">
-                      Compatibility
-                    </dt>
-                    <dd className="text-foreground font-medium">
-                      iPhone 12 and later with MagSafe
-                    </dd>
-                  </div>
-                </dl>
-              </div>
             </div>
           </div>
         </div>
       </div>
+
       <Footer />
-    </>
-  );
+    </main>
+  )
 }

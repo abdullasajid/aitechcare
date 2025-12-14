@@ -50,6 +50,15 @@ const products = [
     link: "/products/roborock-s8",
     image: "/roborock1.png",
   },
+  {
+    icon: Brain,
+    title: "Aqara Hub M3",
+    description: "Matter-compatible smart home hub with 200+ devices support",
+    price: "$79",
+    color: "from-blue-500 to-indigo-500",
+    link: "/products/aqara-hub-m3",
+    image: "/hubM3.png",
+  },
 ];
 
 export default function AIProducts() {

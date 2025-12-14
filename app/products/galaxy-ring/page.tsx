@@ -1,15 +1,15 @@
 "use client"
 
-import { useState } from "react"
-import Image from "next/image"
-import Link from "next/link"
-import { ArrowLeft, Check } from "lucide-react"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
+import { ArrowLeft, Check, Star } from "lucide-react"
+import Link from "next/link"
+import Image from "next/image"
+import { useState } from "react"
 
 export default function GalaxyRing() {
   const [selectedImage, setSelectedImage] = useState(0)
-
+  
   const images = [
     "/galaxy_ring-1.webp",
     "/galaxy_ring-2.webp",
@@ -17,35 +17,35 @@ export default function GalaxyRing() {
     "/galaxy_ring-4.webp",
     "/galaxy_ring-5.webp",
     "/galaxy_ring-6.webp",
-    "/galaxy_ring-7.webp",
-    "/galaxy_ring-8.webp",
   ]
 
   return (
-    <>
+    <main className="min-h-screen bg-background">
       <Navbar />
-      <div className="min-h-screen bg-background pt-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <Link
-            href="/"
-            className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition mb-8"
-          >
+      
+      <div className="pt-24 pb-20 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <Link href="/#ai-products" className="inline-flex items-center gap-2 text-accent hover:underline mb-8">
             <ArrowLeft className="w-4 h-4" />
-            Back to Home
+            Back to Products
           </Link>
 
-          <div className="grid md:grid-cols-2 gap-12">
-            {/* Image Gallery */}
+          <div className="grid md:grid-cols-2 gap-12 items-start">
+            {/* Product Images */}
             <div className="space-y-4">
-              <div className="relative aspect-square rounded-xl overflow-hidden bg-gradient-to-br from-accent/10 to-primary/10">
+              {/* Main Image */}
+              <div className="relative bg-gradient-to-br from-purple-500/20 to-pink-500/20 rounded-2xl border border-border aspect-square overflow-hidden">
                 <Image
                   src={images[selectedImage]}
                   alt="Samsung Galaxy Ring"
                   fill
                   className="object-contain p-8"
+                  priority
                 />
               </div>
-              <div className="grid grid-cols-4 gap-2">
+              
+              {/* Thumbnail Gallery */}
+              <div className="grid grid-cols-6 gap-2">
                 {images.map((image, index) => (
                   <button
                     key={index}
@@ -58,9 +58,9 @@ export default function GalaxyRing() {
                   >
                     <Image
                       src={image}
-                      alt={`Samsung Galaxy Ring view ${index + 1}`}
+                      alt={`Galaxy Ring view ${index + 1}`}
                       fill
-                      className="object-contain p-2"
+                      className="object-contain p-1"
                     />
                   </button>
                 ))}
@@ -70,69 +70,47 @@ export default function GalaxyRing() {
             {/* Product Details */}
             <div className="space-y-6">
               <div>
-                <h1 className="text-4xl font-bold text-foreground mb-4">
-                  Samsung Galaxy Ring
-                </h1>
-                <p className="text-muted-foreground text-lg">
-                  Smart ring with AI-powered health tracking, heart rate monitoring, and sleep analysis
+                <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Samsung Galaxy Ring</h1>
+              </div>
+
+              <div className="space-y-4">
+                <h2 className="text-2xl font-bold text-foreground">Product Description</h2>
+                <p className="text-muted-foreground leading-relaxed">
+                  Smart ring with AI-powered health tracking, heart rate monitoring, and sleep analysis. The Galaxy Ring 
+                  brings comprehensive health insights to your finger in a sleek, lightweight design.
+                </p>
+                <p className="text-muted-foreground leading-relaxed">
+                  With Galaxy AI integration, get personalized health insights and sleep coaching. The titanium construction 
+                  ensures durability while remaining comfortable for 24/7 wear, with up to 7 days of battery life.
                 </p>
               </div>
 
-              <div className="border-t border-border pt-6">
-                <h2 className="text-2xl font-semibold text-foreground mb-4">
-                  Key Features
-                </h2>
+              <div className="space-y-4">
+                <h3 className="text-xl font-bold text-foreground">Key Features</h3>
                 <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">AI-powered health insights with Galaxy AI integration</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">24/7 heart rate and blood oxygen monitoring</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Advanced sleep tracking with AI sleep coaching</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Skin temperature sensing for cycle tracking</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Up to 7 days battery life on a single charge</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Water resistant up to 100m (10 ATM)</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Lightweight titanium design in multiple sizes</span>
-                  </li>
+                  {[
+                    "AI-powered health insights with Galaxy AI integration",
+                    "24/7 heart rate and blood oxygen monitoring",
+                    "Advanced sleep tracking with AI sleep coaching",
+                    "Skin temperature sensing for cycle tracking",
+                    "Up to 7 days battery life on a single charge",
+                    "Water resistant up to 100m (10 ATM)",
+                    "Lightweight titanium design in multiple sizes",
+                    "Seamless integration with Samsung Health"
+                  ].map((feature, i) => (
+                    <li key={i} className="flex items-start gap-3">
+                      <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
+                      <span className="text-muted-foreground">{feature}</span>
+                    </li>
+                  ))}
                 </ul>
-              </div>
-
-              <div className="border-t border-border pt-6">
-                <h2 className="text-2xl font-semibold text-foreground mb-4">
-                  Specifications
-                </h2>
-                <div className="space-y-2 text-muted-foreground">
-                  <p><strong>Material:</strong> Titanium with epoxy coating</p>
-                  <p><strong>Battery Life:</strong> Up to 7 days</p>
-                  <p><strong>Water Resistance:</strong> 100m (10 ATM)</p>
-                  <p><strong>Weight:</strong> 2.3-3.0g (size dependent)</p>
-                  <p><strong>Sensors:</strong> Optical heart rate, SpO2, skin temperature, accelerometer</p>
-                  <p><strong>Connectivity:</strong> Bluetooth 5.4</p>
-                  <p><strong>Compatibility:</strong> Android devices with Samsung Health app</p>
-                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <Footer />
-    </>
+    </main>
   )
 }
