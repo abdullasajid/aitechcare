@@ -1,21 +1,16 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import Image from "next/image"
-import Link from "next/link"
-import { ArrowLeft, Check } from "lucide-react"
-import Navbar from "@/components/navbar"
-import Footer from "@/components/footer"
+import { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { ArrowLeft, Check } from "lucide-react";
+import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 export default function RabbitR1() {
-  const [selectedImage, setSelectedImage] = useState(0)
+  const [selectedImage, setSelectedImage] = useState(0);
 
-  const images = [
-    "/rabbit-r1.jpg",
-    "/rabbit-r1-2.jpg",
-    "/rabbit-r1-3.jpg",
-    "/rabbit-r1-4.jpg",
-  ]
+  const images = ["/r1.webp", "/r1-1.webp", "/r1-2.webp", "/r1-3.webp"];
 
   return (
     <>
@@ -62,17 +57,18 @@ export default function RabbitR1() {
               </div>
             </div>
 
-          {/* Product Info */}
-          <div className="space-y-6">
-            <div>
-              <p className="text-accent font-semibold mb-2">Rabbit</p>
-              <h1 className="text-4xl font-bold text-foreground mb-4">
-                Rabbit R1
-              </h1>
-              <p className="text-lg text-muted-foreground">
-                Compact AI assistant device with touchscreen and voice commands for everyday tasks
-              </p>
-            </div>
+            {/* Product Info */}
+            <div className="space-y-6">
+              <div>
+                <p className="text-accent font-semibold mb-2">Rabbit</p>
+                <h1 className="text-4xl font-bold text-foreground mb-4">
+                  Rabbit R1
+                </h1>
+                <p className="text-lg text-muted-foreground">
+                  Compact AI assistant device with touchscreen and voice
+                  commands for everyday tasks
+                </p>
+              </div>
 
               <div className="border-t border-border pt-6">
                 <h2 className="text-2xl font-semibold text-foreground mb-4">
@@ -81,27 +77,39 @@ export default function RabbitR1() {
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">2.88" touchscreen display with intuitive interface</span>
+                    <span className="text-muted-foreground">
+                      2.88" touchscreen display with intuitive interface
+                    </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Large Action Model (LAM) for understanding complex tasks</span>
+                    <span className="text-muted-foreground">
+                      Large Action Model (LAM) for understanding complex tasks
+                    </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Push-to-talk button for instant AI assistance</span>
+                    <span className="text-muted-foreground">
+                      Push-to-talk button for instant AI assistance
+                    </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">360° rotating camera for versatile capture</span>
+                    <span className="text-muted-foreground">
+                      360° rotating camera for versatile capture
+                    </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">4G LTE connectivity with built-in SIM</span>
+                    <span className="text-muted-foreground">
+                      4G LTE connectivity with built-in SIM
+                    </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Compact pocket-sized design with scroll wheel navigation</span>
+                    <span className="text-muted-foreground">
+                      Compact pocket-sized design with scroll wheel navigation
+                    </span>
                   </li>
                 </ul>
               </div>
@@ -111,12 +119,24 @@ export default function RabbitR1() {
                   Specifications
                 </h2>
                 <div className="space-y-2 text-muted-foreground">
-                  <p><strong>Display:</strong> 2.88" touchscreen</p>
-                  <p><strong>Battery Life:</strong> All day use</p>
-                  <p><strong>Camera:</strong> 8MP 360° rotating</p>
-                  <p><strong>Storage:</strong> 128GB internal</p>
-                  <p><strong>Connectivity:</strong> 4G LTE, Wi-Fi, Bluetooth</p>
-                  <p><strong>Weight:</strong> 115g</p>
+                  <p>
+                    <strong>Display:</strong> 2.88" touchscreen
+                  </p>
+                  <p>
+                    <strong>Battery Life:</strong> All day use
+                  </p>
+                  <p>
+                    <strong>Camera:</strong> 8MP 360° rotating
+                  </p>
+                  <p>
+                    <strong>Storage:</strong> 128GB internal
+                  </p>
+                  <p>
+                    <strong>Connectivity:</strong> 4G LTE, Wi-Fi, Bluetooth
+                  </p>
+                  <p>
+                    <strong>Weight:</strong> 115g
+                  </p>
                 </div>
               </div>
             </div>
@@ -125,5 +145,5 @@ export default function RabbitR1() {
       </div>
       <Footer />
     </>
-  )
+  );
 }

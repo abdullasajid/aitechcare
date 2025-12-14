@@ -20,18 +20,19 @@ const gadgets = [
     link: "/products/emo-living-ai-robot",
   },
   {
-    name: "Humane AI Pin",
-    brand: "Humane",
-    description: "Standalone AI | Projector Display | Voice Control",
-    image: "/humane-pin.jpg",
-    link: "/products/humane-ai-pin",
-  },
-  {
     name: "Rabbit R1",
     brand: "Rabbit",
     description: "AI Assistant Device | Touchscreen | Voice Commands",
-    image: "/rabbit-r1.jpg",
+    image: "/r1-4.png",
     link: "/products/rabbit-r1",
+  },
+  {
+    name: "Plaud Note",
+    brand: "Plaud",
+    description:
+      "AI Voice Recorder | ChatGPT Integration | Smart Transcription",
+    image: "/plaud.webp",
+    link: "/products/plaud-note",
   },
 ];
 
