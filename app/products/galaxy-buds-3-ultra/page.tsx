@@ -114,9 +114,3 @@ export default function GalaxyBuds3Ultra() {
     </main>
   )
 }
-        </div>
-      </div>
-      <Footer />
-    </>
-  );
-}

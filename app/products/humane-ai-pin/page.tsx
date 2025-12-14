@@ -114,32 +114,3 @@ export default function HumaneAIPin() {
     </main>
   )
 }
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Magnetic attachment with battery booster system</span>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="border-t border-border pt-6">
-                <h2 className="text-2xl font-semibold text-foreground mb-4">
-                  Specifications
-                </h2>
-                <div className="space-y-2 text-muted-foreground">
-                  <p><strong>Processor:</strong> Qualcomm Snapdragon</p>
-                  <p><strong>Battery Life:</strong> All day with booster</p>
-                  <p><strong>Camera:</strong> 13MP ultra-wide</p>
-                  <p><strong>Display:</strong> Laser Ink projector</p>
-                  <p><strong>Connectivity:</strong> 4G LTE, Wi-Fi, Bluetooth</p>
-                  <p><strong>Weight:</strong> 34g (with battery)</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <Footer />
-    </>
-  )
-}
