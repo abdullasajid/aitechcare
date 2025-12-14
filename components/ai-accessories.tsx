@@ -10,7 +10,7 @@ const accessories = [
     brand: "Apple",
     specs: "15W Fast Charging | Magnetic Alignment",
     price: "$39",
-    image: "/magsafe-charger.jpg",
+    image: "/magsafe.png",
     link: "/products/magsafe-charger",
   },
   {
@@ -50,7 +50,7 @@ const accessories = [
     brand: "Apple",
     specs: "Precision Finding | Ultra Wideband",
     price: "$99",
-    image: "/airtag.jpg",
+    image: "/airtag.png",
     link: "/products/airtag",
   },
   {
@@ -66,7 +66,7 @@ const accessories = [
     brand: "Apple",
     specs: "Leather | Find My Support | 3 Cards",
     price: "$59",
-    image: "/magsafe-wallet.jpg",
+    image: "/magwallet.png",
     link: "/products/magsafe-wallet",
   },
 ];

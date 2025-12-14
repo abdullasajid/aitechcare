@@ -1,18 +1,16 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import Image from "next/image"
-import Link from "next/link"
-import { ArrowLeft, Check } from "lucide-react"
-import Navbar from "@/components/navbar"
-import Footer from "@/components/footer"
+import { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { ArrowLeft, Check } from "lucide-react";
+import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 export default function GaNChargerPage() {
-  const [selectedImage, setSelectedImage] = useState(0)
+  const [selectedImage, setSelectedImage] = useState(0);
 
-  const images = [
-    "/gan-charger.jpg",
-  ]
+  const images = ["/gan-charger.jpg"];
 
   const features = [
     "65W total power output",
@@ -25,7 +23,7 @@ export default function GaNChargerPage() {
     "Universal compatibility",
     "MultiProtect safety system",
     "Travel-friendly compact design",
-  ]
+  ];
 
   return (
     <>
@@ -59,12 +57,10 @@ export default function GaNChargerPage() {
                   65W GaN Charger
                 </h1>
                 <p className="text-muted-foreground leading-relaxed">
-                  Harness the power of GaN technology for a noticeably smaller charger that doesn't compromise on power. Fast-charge your phone, tablet, and USB-C notebook from a single charger.
+                  Harness the power of GaN technology for a noticeably smaller
+                  charger that doesn't compromise on power. Fast-charge your
+                  phone, tablet, and USB-C notebook from a single charger.
                 </p>
-              </div>
-
-              <div className="flex items-baseline gap-4">
-                <span className="text-4xl font-bold text-foreground">$55</span>
               </div>
 
               <div className="border-t border-border pt-6">
@@ -87,7 +83,9 @@ export default function GaNChargerPage() {
                 </h2>
                 <dl className="space-y-3">
                   <div>
-                    <dt className="text-sm text-muted-foreground">Total Output</dt>
+                    <dt className="text-sm text-muted-foreground">
+                      Total Output
+                    </dt>
                     <dd className="text-foreground font-medium">65W max</dd>
                   </div>
                   <div>
@@ -103,8 +101,12 @@ export default function GaNChargerPage() {
                     <dd className="text-foreground font-medium">22.5W max</dd>
                   </div>
                   <div>
-                    <dt className="text-sm text-muted-foreground">Dimensions</dt>
-                    <dd className="text-foreground font-medium">49 × 41 × 32mm</dd>
+                    <dt className="text-sm text-muted-foreground">
+                      Dimensions
+                    </dt>
+                    <dd className="text-foreground font-medium">
+                      49 × 41 × 32mm
+                    </dd>
                   </div>
                 </dl>
               </div>
@@ -114,5 +116,5 @@ export default function GaNChargerPage() {
       </div>
       <Footer />
     </>
-  )
+  );
 }

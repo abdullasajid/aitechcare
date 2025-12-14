@@ -1,18 +1,16 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import Image from "next/image"
-import Link from "next/link"
-import { ArrowLeft, Check } from "lucide-react"
-import Navbar from "@/components/navbar"
-import Footer from "@/components/footer"
+import { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { ArrowLeft, Check } from "lucide-react";
+import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 export default function MagSafeWalletPage() {
-  const [selectedImage, setSelectedImage] = useState(0)
+  const [selectedImage, setSelectedImage] = useState(0);
 
-  const images = [
-    "/magsafe-wallet.jpg",
-  ]
+  const images = ["/magwallet.png", "/magwallet-1.jpg"];
 
   const features = [
     "Strong built-in magnets",
@@ -25,7 +23,7 @@ export default function MagSafeWalletPage() {
     "Easy card access with thumb notch",
     "Slim profile adds minimal bulk",
     "Available in multiple colors",
-  ]
+  ];
 
   return (
     <>
@@ -50,6 +48,26 @@ export default function MagSafeWalletPage() {
                   className="object-contain p-8"
                 />
               </div>
+              <div className="grid grid-cols-2 gap-4">
+                {images.map((image, index) => (
+                  <button
+                    key={index}
+                    onClick={() => setSelectedImage(index)}
+                    className={`relative aspect-square rounded-lg overflow-hidden border-2 transition ${
+                      selectedImage === index
+                        ? "border-accent"
+                        : "border-border hover:border-accent/50"
+                    }`}
+                  >
+                    <Image
+                      src={image}
+                      alt={`MagSafe Wallet view ${index + 1}`}
+                      fill
+                      className="object-contain p-2"
+                    />
+                  </button>
+                ))}
+              </div>
             </div>
 
             <div className="space-y-6">
@@ -59,12 +77,10 @@ export default function MagSafeWalletPage() {
                   MagSafe Wallet
                 </h1>
                 <p className="text-muted-foreground leading-relaxed">
-                  Keep your cards close with the MagSafe Wallet. It snaps magnetically to your iPhone and supports Find My, so you can receive notifications if you leave it behind.
+                  Keep your cards close with the MagSafe Wallet. It snaps
+                  magnetically to your iPhone and supports Find My, so you can
+                  receive notifications if you leave it behind.
                 </p>
-              </div>
-
-              <div className="flex items-baseline gap-4">
-                <span className="text-4xl font-bold text-foreground">$59</span>
               </div>
 
               <div className="border-t border-border pt-6">
@@ -88,19 +104,31 @@ export default function MagSafeWalletPage() {
                 <dl className="space-y-3">
                   <div>
                     <dt className="text-sm text-muted-foreground">Material</dt>
-                    <dd className="text-foreground font-medium">European Leather</dd>
+                    <dd className="text-foreground font-medium">
+                      European Leather
+                    </dd>
                   </div>
                   <div>
-                    <dt className="text-sm text-muted-foreground">Card Capacity</dt>
-                    <dd className="text-foreground font-medium">Up to 3 cards</dd>
+                    <dt className="text-sm text-muted-foreground">
+                      Card Capacity
+                    </dt>
+                    <dd className="text-foreground font-medium">
+                      Up to 3 cards
+                    </dd>
                   </div>
                   <div>
                     <dt className="text-sm text-muted-foreground">Find My</dt>
-                    <dd className="text-foreground font-medium">Supported with notifications</dd>
+                    <dd className="text-foreground font-medium">
+                      Supported with notifications
+                    </dd>
                   </div>
                   <div>
-                    <dt className="text-sm text-muted-foreground">Compatibility</dt>
-                    <dd className="text-foreground font-medium">iPhone 12 and later with MagSafe</dd>
+                    <dt className="text-sm text-muted-foreground">
+                      Compatibility
+                    </dt>
+                    <dd className="text-foreground font-medium">
+                      iPhone 12 and later with MagSafe
+                    </dd>
                   </div>
                 </dl>
               </div>
@@ -110,5 +138,5 @@ export default function MagSafeWalletPage() {
       </div>
       <Footer />
     </>
-  )
+  );
 }

@@ -1,18 +1,16 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import Image from "next/image"
-import Link from "next/link"
-import { ArrowLeft, Check } from "lucide-react"
-import Navbar from "@/components/navbar"
-import Footer from "@/components/footer"
+import { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { ArrowLeft, Check } from "lucide-react";
+import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 export default function USBCCablePage() {
-  const [selectedImage, setSelectedImage] = useState(0)
+  const [selectedImage, setSelectedImage] = useState(0);
 
-  const images = [
-    "/usbc-cable.jpg",
-  ]
+  const images = ["/usbc-cable.jpg"];
 
   const features = [
     "100W Power Delivery support",
@@ -25,7 +23,7 @@ export default function USBCCablePage() {
     "Perfect for MacBook and iPad charging",
     "Tangle-free cable management",
     "Lifetime warranty included",
-  ]
+  ];
 
   return (
     <>
@@ -59,12 +57,10 @@ export default function USBCCablePage() {
                   USB-C Cable 2M
                 </h1>
                 <p className="text-muted-foreground leading-relaxed">
-                  Premium braided USB-C cable with 100W Power Delivery support. Perfect for charging and syncing your USB-C devices with superior durability and performance.
+                  Premium braided USB-C cable with 100W Power Delivery support.
+                  Perfect for charging and syncing your USB-C devices with
+                  superior durability and performance.
                 </p>
-              </div>
-
-              <div className="flex items-baseline gap-4">
-                <span className="text-4xl font-bold text-foreground">$24</span>
               </div>
 
               <div className="border-t border-border pt-6">
@@ -87,20 +83,34 @@ export default function USBCCablePage() {
                 </h2>
                 <dl className="space-y-3">
                   <div>
-                    <dt className="text-sm text-muted-foreground">Power Delivery</dt>
+                    <dt className="text-sm text-muted-foreground">
+                      Power Delivery
+                    </dt>
                     <dd className="text-foreground font-medium">Up to 100W</dd>
                   </div>
                   <div>
-                    <dt className="text-sm text-muted-foreground">Cable Length</dt>
-                    <dd className="text-foreground font-medium">2 meters (6.6 feet)</dd>
+                    <dt className="text-sm text-muted-foreground">
+                      Cable Length
+                    </dt>
+                    <dd className="text-foreground font-medium">
+                      2 meters (6.6 feet)
+                    </dd>
                   </div>
                   <div>
-                    <dt className="text-sm text-muted-foreground">Data Transfer</dt>
-                    <dd className="text-foreground font-medium">USB 2.0 - 480Mbps</dd>
+                    <dt className="text-sm text-muted-foreground">
+                      Data Transfer
+                    </dt>
+                    <dd className="text-foreground font-medium">
+                      USB 2.0 - 480Mbps
+                    </dd>
                   </div>
                   <div>
-                    <dt className="text-sm text-muted-foreground">Connector Type</dt>
-                    <dd className="text-foreground font-medium">USB-C to USB-C</dd>
+                    <dt className="text-sm text-muted-foreground">
+                      Connector Type
+                    </dt>
+                    <dd className="text-foreground font-medium">
+                      USB-C to USB-C
+                    </dd>
                   </div>
                 </dl>
               </div>
@@ -110,5 +120,5 @@ export default function USBCCablePage() {
       </div>
       <Footer />
     </>
-  )
+  );
 }

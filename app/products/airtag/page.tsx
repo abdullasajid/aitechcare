@@ -1,18 +1,16 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import Image from "next/image"
-import Link from "next/link"
-import { ArrowLeft, Check } from "lucide-react"
-import Navbar from "@/components/navbar"
-import Footer from "@/components/footer"
+import { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { ArrowLeft, Check } from "lucide-react";
+import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 export default function AirTagPage() {
-  const [selectedImage, setSelectedImage] = useState(0)
+  const [selectedImage, setSelectedImage] = useState(0);
 
-  const images = [
-    "/airtag.jpg",
-  ]
+  const images = ["/airtag.png"];
 
   const features = [
     "Precision Finding with Ultra Wideband",
@@ -25,7 +23,7 @@ export default function AirTagPage() {
     "Personalized engraving available",
     "Works with iOS and accessories",
     "Lost Mode with contact information",
-  ]
+  ];
 
   return (
     <>
@@ -59,12 +57,10 @@ export default function AirTagPage() {
                   AirTag 4 Pack
                 </h1>
                 <p className="text-muted-foreground leading-relaxed">
-                  Keep track of your keys, wallet, luggage, backpack, and more with AirTag. Play a sound, use Precision Finding, or tap into the Find My network to locate your items.
+                  Keep track of your keys, wallet, luggage, backpack, and more
+                  with AirTag. Play a sound, use Precision Finding, or tap into
+                  the Find My network to locate your items.
                 </p>
-              </div>
-
-              <div className="flex items-baseline gap-4">
-                <span className="text-4xl font-bold text-foreground">$99</span>
               </div>
 
               <div className="border-t border-border pt-6">
@@ -87,19 +83,31 @@ export default function AirTagPage() {
                 </h2>
                 <dl className="space-y-3">
                   <div>
-                    <dt className="text-sm text-muted-foreground">Dimensions</dt>
-                    <dd className="text-foreground font-medium">31.9mm diameter x 8mm height</dd>
+                    <dt className="text-sm text-muted-foreground">
+                      Dimensions
+                    </dt>
+                    <dd className="text-foreground font-medium">
+                      31.9mm diameter x 8mm height
+                    </dd>
                   </div>
                   <div>
                     <dt className="text-sm text-muted-foreground">Battery</dt>
-                    <dd className="text-foreground font-medium">CR2032 replaceable (1+ year)</dd>
+                    <dd className="text-foreground font-medium">
+                      CR2032 replaceable (1+ year)
+                    </dd>
                   </div>
                   <div>
-                    <dt className="text-sm text-muted-foreground">Connectivity</dt>
-                    <dd className="text-foreground font-medium">Bluetooth 5.0, Ultra Wideband</dd>
+                    <dt className="text-sm text-muted-foreground">
+                      Connectivity
+                    </dt>
+                    <dd className="text-foreground font-medium">
+                      Bluetooth 5.0, Ultra Wideband
+                    </dd>
                   </div>
                   <div>
-                    <dt className="text-sm text-muted-foreground">Water Resistance</dt>
+                    <dt className="text-sm text-muted-foreground">
+                      Water Resistance
+                    </dt>
                     <dd className="text-foreground font-medium">IP67 rated</dd>
                   </div>
                 </dl>
@@ -110,5 +118,5 @@ export default function AirTagPage() {
       </div>
       <Footer />
     </>
-  )
+  );
 }

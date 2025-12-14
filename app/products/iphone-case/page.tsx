@@ -1,18 +1,16 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import Image from "next/image"
-import Link from "next/link"
-import { ArrowLeft, Check } from "lucide-react"
-import Navbar from "@/components/navbar"
-import Footer from "@/components/footer"
+import { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { ArrowLeft, Check } from "lucide-react";
+import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 export default function iPhoneCasePage() {
-  const [selectedImage, setSelectedImage] = useState(0)
+  const [selectedImage, setSelectedImage] = useState(0);
 
-  const images = [
-    "/iphone-case.jpg",
-  ]
+  const images = ["/iphone-case.jpg"];
 
   const features = [
     "Silky, soft-touch silicone exterior",
@@ -25,7 +23,7 @@ export default function iPhoneCasePage() {
     "Raised edges protect camera and screen",
     "Available in multiple colors",
     "Premium Apple quality",
-  ]
+  ];
 
   return (
     <>
@@ -59,12 +57,11 @@ export default function iPhoneCasePage() {
                   iPhone 17 Pro Case
                 </h1>
                 <p className="text-muted-foreground leading-relaxed">
-                  The Apple Silicone Case fits snugly over the buttons without adding bulk. The smooth, soft-touch finish of the silicone exterior feels great in your hand, while the microfiber lining provides protection.
+                  The Apple Silicone Case fits snugly over the buttons without
+                  adding bulk. The smooth, soft-touch finish of the silicone
+                  exterior feels great in your hand, while the microfiber lining
+                  provides protection.
                 </p>
-              </div>
-
-              <div className="flex items-baseline gap-4">
-                <span className="text-4xl font-bold text-foreground">$49</span>
               </div>
 
               <div className="border-t border-border pt-6">
@@ -88,19 +85,31 @@ export default function iPhoneCasePage() {
                 <dl className="space-y-3">
                   <div>
                     <dt className="text-sm text-muted-foreground">Material</dt>
-                    <dd className="text-foreground font-medium">Premium Silicone</dd>
+                    <dd className="text-foreground font-medium">
+                      Premium Silicone
+                    </dd>
                   </div>
                   <div>
-                    <dt className="text-sm text-muted-foreground">Compatibility</dt>
-                    <dd className="text-foreground font-medium">iPhone 17 Pro / Pro Max</dd>
+                    <dt className="text-sm text-muted-foreground">
+                      Compatibility
+                    </dt>
+                    <dd className="text-foreground font-medium">
+                      iPhone 17 Pro / Pro Max
+                    </dd>
                   </div>
                   <div>
                     <dt className="text-sm text-muted-foreground">MagSafe</dt>
-                    <dd className="text-foreground font-medium">Fully Compatible</dd>
+                    <dd className="text-foreground font-medium">
+                      Fully Compatible
+                    </dd>
                   </div>
                   <div>
-                    <dt className="text-sm text-muted-foreground">Protection</dt>
-                    <dd className="text-foreground font-medium">Military Grade Drop Test</dd>
+                    <dt className="text-sm text-muted-foreground">
+                      Protection
+                    </dt>
+                    <dd className="text-foreground font-medium">
+                      Military Grade Drop Test
+                    </dd>
                   </div>
                 </dl>
               </div>
@@ -110,5 +119,5 @@ export default function iPhoneCasePage() {
       </div>
       <Footer />
     </>
-  )
+  );
 }

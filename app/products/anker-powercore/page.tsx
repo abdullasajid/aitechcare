@@ -1,18 +1,16 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import Image from "next/image"
-import Link from "next/link"
-import { ArrowLeft, Check } from "lucide-react"
-import Navbar from "@/components/navbar"
-import Footer from "@/components/footer"
+import { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { ArrowLeft, Check } from "lucide-react";
+import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 export default function AnkerPowerCorePage() {
-  const [selectedImage, setSelectedImage] = useState(0)
+  const [selectedImage, setSelectedImage] = useState(0);
 
-  const images = [
-    "/anker-powerbank.jpg",
-  ]
+  const images = ["/anker-powerbank.jpg"];
 
   const features = [
     "20,000mAh high capacity for multiple charges",
@@ -25,7 +23,7 @@ export default function AnkerPowerCorePage() {
     "Pass-through charging support",
     "Low-current mode for small devices",
     "Airline approved for travel",
-  ]
+  ];
 
   return (
     <>
@@ -59,12 +57,10 @@ export default function AnkerPowerCorePage() {
                   PowerCore 20K
                 </h1>
                 <p className="text-muted-foreground leading-relaxed">
-                  The PowerCore 20K is Anker's most powerful portable charger, providing up to 20,000mAh of charging power with 30W Power Delivery for fast charging on the go.
+                  The PowerCore 20K is Anker's most powerful portable charger,
+                  providing up to 20,000mAh of charging power with 30W Power
+                  Delivery for fast charging on the go.
                 </p>
-              </div>
-
-              <div className="flex items-baseline gap-4">
-                <span className="text-4xl font-bold text-foreground">$59</span>
               </div>
 
               <div className="border-t border-border pt-6">
@@ -88,19 +84,27 @@ export default function AnkerPowerCorePage() {
                 <dl className="space-y-3">
                   <div>
                     <dt className="text-sm text-muted-foreground">Capacity</dt>
-                    <dd className="text-foreground font-medium">20,000mAh / 72Wh</dd>
+                    <dd className="text-foreground font-medium">
+                      20,000mAh / 72Wh
+                    </dd>
                   </div>
                   <div>
                     <dt className="text-sm text-muted-foreground">Input</dt>
-                    <dd className="text-foreground font-medium">USB-C: 30W max</dd>
+                    <dd className="text-foreground font-medium">
+                      USB-C: 30W max
+                    </dd>
                   </div>
                   <div>
                     <dt className="text-sm text-muted-foreground">Output</dt>
-                    <dd className="text-foreground font-medium">USB-C: 30W max (each port)</dd>
+                    <dd className="text-foreground font-medium">
+                      USB-C: 30W max (each port)
+                    </dd>
                   </div>
                   <div>
                     <dt className="text-sm text-muted-foreground">Weight</dt>
-                    <dd className="text-foreground font-medium">355g (12.5 oz)</dd>
+                    <dd className="text-foreground font-medium">
+                      355g (12.5 oz)
+                    </dd>
                   </div>
                 </dl>
               </div>
@@ -110,5 +114,5 @@ export default function AnkerPowerCorePage() {
       </div>
       <Footer />
     </>
-  )
+  );
 }

@@ -1,18 +1,16 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import Image from "next/image"
-import Link from "next/link"
-import { ArrowLeft, Check } from "lucide-react"
-import Navbar from "@/components/navbar"
-import Footer from "@/components/footer"
+import { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { ArrowLeft, Check } from "lucide-react";
+import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 export default function SamsungCasePage() {
-  const [selectedImage, setSelectedImage] = useState(0)
+  const [selectedImage, setSelectedImage] = useState(0);
 
-  const images = [
-    "/samsung-case.jpg",
-  ]
+  const images = ["/samsung-case.jpg"];
 
   const features = [
     "Military-grade drop protection (MIL-STD-810G)",
@@ -25,7 +23,7 @@ export default function SamsungCasePage() {
     "Easy grip non-slip design",
     "Precise cutouts for all ports",
     "Scratch-resistant coating",
-  ]
+  ];
 
   return (
     <>
@@ -54,17 +52,17 @@ export default function SamsungCasePage() {
 
             <div className="space-y-6">
               <div>
-                <p className="text-sm text-accent font-semibold mb-2">Samsung</p>
+                <p className="text-sm text-accent font-semibold mb-2">
+                  Samsung
+                </p>
                 <h1 className="text-4xl font-bold text-foreground mb-4">
                   Galaxy S25 Clear Case
                 </h1>
                 <p className="text-muted-foreground leading-relaxed">
-                  Show off your Galaxy S25's stunning design while keeping it protected with this crystal clear case. Military-grade protection meets minimalist aesthetics.
+                  Show off your Galaxy S25's stunning design while keeping it
+                  protected with this crystal clear case. Military-grade
+                  protection meets minimalist aesthetics.
                 </p>
-              </div>
-
-              <div className="flex items-baseline gap-4">
-                <span className="text-4xl font-bold text-foreground">$34</span>
               </div>
 
               <div className="border-t border-border pt-6">
@@ -88,19 +86,31 @@ export default function SamsungCasePage() {
                 <dl className="space-y-3">
                   <div>
                     <dt className="text-sm text-muted-foreground">Material</dt>
-                    <dd className="text-foreground font-medium">TPU + Polycarbonate</dd>
+                    <dd className="text-foreground font-medium">
+                      TPU + Polycarbonate
+                    </dd>
                   </div>
                   <div>
-                    <dt className="text-sm text-muted-foreground">Compatibility</dt>
-                    <dd className="text-foreground font-medium">Galaxy S25 Ultra</dd>
+                    <dt className="text-sm text-muted-foreground">
+                      Compatibility
+                    </dt>
+                    <dd className="text-foreground font-medium">
+                      Galaxy S25 Ultra
+                    </dd>
                   </div>
                   <div>
-                    <dt className="text-sm text-muted-foreground">Drop Protection</dt>
-                    <dd className="text-foreground font-medium">Up to 12 feet</dd>
+                    <dt className="text-sm text-muted-foreground">
+                      Drop Protection
+                    </dt>
+                    <dd className="text-foreground font-medium">
+                      Up to 12 feet
+                    </dd>
                   </div>
                   <div>
                     <dt className="text-sm text-muted-foreground">Weight</dt>
-                    <dd className="text-foreground font-medium">28g (Ultra-light)</dd>
+                    <dd className="text-foreground font-medium">
+                      28g (Ultra-light)
+                    </dd>
                   </div>
                 </dl>
               </div>
@@ -110,5 +120,5 @@ export default function SamsungCasePage() {
       </div>
       <Footer />
     </>
-  )
+  );
 }
