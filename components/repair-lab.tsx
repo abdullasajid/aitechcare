@@ -98,15 +98,6 @@ export default function RepairLab() {
                 </div>
               ))}
             </div>
-
-            <div className="pt-4">
-              <a
-                href="/contact"
-                className="inline-block bg-accent hover:bg-accent/90 text-white font-semibold py-3 px-8 rounded-lg transition duration-300"
-              >
-                Book a Repair
-              </a>
-            </div>
           </div>
         </div>
       </div>
